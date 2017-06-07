@@ -1,0 +1,266 @@
+﻿1
+00:00:00,000 --> 00:00:02,133
+This is CodeTap
+I'm Marian
+
+2
+00:00:02,133 --> 00:00:03,033
+and I'm Carol
+
+3
+00:00:03,033 --> 00:00:04,499
+and today we'll be talking about 
+
+4
+00:00:04,500 --> 00:00:06,366
+What is HTML? 
+
+5
+00:00:16,566 --> 00:00:18,999
+So, what is HTML?
+
+6
+00:00:19,000 --> 00:00:22,133
+Well, most tutors will tell you 
+that HTML stands for:
+
+7
+00:00:22,133 --> 00:00:24,433
+Hyper Text
+Markup Language
+
+8
+00:00:24,433 --> 00:00:26,533
+Isn't that adding up to the confusion?
+
+9
+00:00:26,533 --> 00:00:30,033
+Well, to tell you the truth,
+I'd be even more confused too.
+
+10
+00:00:30,033 --> 00:00:32,999
+Let me translate
+Geek into English
+
+11
+00:00:33,000 --> 00:00:35,200
+Let's switch to the big screen then.
+
+12
+00:00:39,233 --> 00:00:42,733
+OK. So, let's see what HTML does.
+
+13
+00:00:42,733 --> 00:00:46,166
+What's up with it?
+What does it do?
+
+14
+00:00:46,166 --> 00:00:53,866
+When you write HTML, you actually
+define the structure of a web page.
+
+15
+00:00:53,866 --> 00:00:59,832
+Let's dive in and see an example
+of a very popular web site.
+
+16
+00:00:59,833 --> 00:01:01,799
+YouTube
+
+17
+00:01:01,800 --> 00:01:06,833
+I'll open Google Chrome browser
+and Notepad
+
+18
+00:01:08,000 --> 00:01:13,166
+and set them side by side
+and let's navigate to YouTube
+
+19
+00:01:16,133 --> 00:01:19,533
+OK, so we'll start writing down
+the structure of YouTube
+
+20
+00:01:19,533 --> 00:01:22,899
+A very simple one to illustrate the purpose.
+
+21
+00:01:23,366 --> 00:01:26,832
+So, we can see that 
+we have a top section here.
+
+22
+00:01:27,933 --> 00:01:31,933
+So let's write "top-section"
+
+23
+00:01:34,400 --> 00:01:39,000
+and in that top section 
+we have a logo
+
+24
+00:01:40,966 --> 00:01:47,999
+and the logo contains 
+info about YouTube GB
+
+25
+00:01:51,066 --> 00:01:56,866
+OK, and after the logo, to its right side
+we have a search
+
+26
+00:01:58,900 --> 00:02:03,400
+and after that we have a ...
+let's call it "mini-menu"
+
+27
+00:02:07,233 --> 00:02:10,933
+'cause of some small icons
+those ones, those three over here
+
+28
+00:02:12,133 --> 00:02:15,866
+So, in this mini-menu we have a
+
+29
+00:02:15,866 --> 00:02:19,866
+an upload icon
+
+30
+00:02:21,333 --> 00:02:25,333
+I think those are called alerts
+so "alerts"
+
+31
+00:02:26,466 --> 00:02:30,766
+and the last one would be
+the user profile
+
+32
+00:02:34,300 --> 00:02:37,966
+so far so good,
+we could continue with
+
+33
+00:02:39,366 --> 00:02:43,366
+let's call it "menu list"
+
+34
+00:02:46,133 --> 00:02:50,733
+OK, and this one has a link
+
+35
+00:02:52,933 --> 00:02:55,333
+that gets you home
+
+36
+00:02:55,566 --> 00:02:57,566
+and another link
+
+37
+00:03:00,733 --> 00:03:02,066
+for trending
+
+38
+00:03:05,533 --> 00:03:09,533
+and another link for subscriptions
+
+39
+00:03:15,200 --> 00:03:18,533
+so, I think we can continue with this
+
+40
+00:03:18,533 --> 00:03:21,266
+we can call it the "content" section, OK?
+
+41
+00:03:21,666 --> 00:03:25,099
+so, because it has content in it
+
+42
+00:03:25,100 --> 00:03:28,566
+and we see recommended
+
+43
+00:03:28,800 --> 00:03:35,166
+and it's a list of movies
+so "re..." list
+
+44
+00:03:36,966 --> 00:03:40,966
+and inside it we have "movie 1"
+
+45
+00:03:42,233 --> 00:03:47,966
+movie two, movie three, and so on.
+
+46
+00:03:50,533 --> 00:03:54,533
+and we have a "watch it again" list, "lifestyle"
+
+47
+00:03:54,800 --> 00:03:57,133
+so let me just copy / paste this
+
+48
+00:03:59,866 --> 00:04:02,466
+and say watch it again list
+
+49
+00:04:06,933 --> 00:04:10,599
+and we have again movies and so on and
+
+50
+00:04:11,266 --> 00:04:13,232
+later on we have more lists
+
+51
+00:04:14,200 --> 00:04:17,500
+later on we'll get to the bottom of it
+
+52
+00:04:18,066 --> 00:04:19,832
+we have a footer
+
+53
+00:04:20,700 --> 00:04:24,166
+so let's just jump to it, "footer"
+
+54
+00:04:24,533 --> 00:04:25,466
+and some footer
+
+55
+00:04:25,466 --> 00:04:36,366
+lots of nice content with lots of useful info
+
+56
+00:04:39,733 --> 00:04:43,399
+OK, so now we know that with HTML
+
+57
+00:04:43,600 --> 00:04:46,366
+you define the structure of a web page
+
+58
+00:04:47,066 --> 00:04:50,066
+in the next lesson, I'll reveal to you
+
+59
+00:04:50,533 --> 00:04:52,666
+The rules of writing HTML
+
+60
+00:04:52,833 --> 00:04:56,833
+the very very simple rules
+of writing HTML
+
+61
+00:04:57,033 --> 00:05:00,266
+so, see YOU in the next lesson!
+

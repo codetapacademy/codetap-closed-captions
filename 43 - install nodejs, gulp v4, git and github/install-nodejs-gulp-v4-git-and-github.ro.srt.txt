@@ -12,85 +12,85 @@ Astăzi, vom instala unelte care ne vor ajuta să dezvoltăm mai repede
 
 4
 00:00:12,333 --> 00:00:16,799
-This setup is only needed once per computer.
+Această instalare este necesară doar o singură dată per calculator.
 
 5
 00:00:16,800 --> 00:00:21,766
-Unless you want to tweak something about it you'll even forget it
+Dacă nu vrei să modifici ceva vei avea șanse sa uiți de asta
 
 6
 00:00:21,766 --> 00:00:25,766
-So make sure to pay a visit back here in case you do so.
+așa că te poți întoarce aici dacă se întâmplă acest lucru.
 
 7
 00:00:25,766 --> 00:00:28,399
-With that said, let's get down to it.
+Cu asta spusă, să trecem la treabă.
 
 8
 00:00:30,300 --> 00:00:35,033
-Hey! What's up guys. I'm Marian and my passion is to create the web
+Salutare! Eu sunt Marian iar pasiunea mea este să creez web-ul
 
 9
 00:00:35,033 --> 00:00:37,466
-and help you be part of it.
+și să te ajut pe tine sa fii parte din asta.
 
 10
 00:00:37,466 --> 00:00:40,966
-If you're new over here, this is CodeTap
+Dacă ești nou pe aici, acesta este CodeTap
 
 11
 00:00:40,966 --> 00:00:44,999
-where you'll learn to code websites like a professional
+unde vei învăța să faci website-uri ca un profesionist
 
 12
 00:00:45,000 --> 00:00:50,166
-with or without any knowledge of coding.
-So consider subscribing.
+cu sau fară a avea vreo cunoștință desre coduri.
+Așa că, consideră să te abonezi.
 
 13
 00:00:50,166 --> 00:00:54,432
-Our first step for today is to install NodeJS
+Primul nostru pas pentru astăzi este să instalăm NodeJS
 
 14
 00:00:54,433 --> 00:01:01,199
-NodeJS is the JavaScript engine that runs inside your Google Chrome browser.
+NodeJS este motorul JavaScript engine care rulează in navigatorul Google Chrome.
 
 15
 00:01:01,200 --> 00:01:06,733
-By installing it we'll be able to run JavaScript on our system
+Instalând-ul vom putea executa JavaScript in sistemul nostru de operare
 
 16
 00:01:06,733 --> 00:01:10,366
-without the need to be inside a browser.
+fară a fi nevoiți să fim în interiorul navigatorului.
 
 17
 00:01:10,366 --> 00:01:13,332
-Before we install it let's find out
+Înainte să-l instalăm, hai să aflăm
 
 18
 00:01:13,333 --> 00:01:18,433
-how we can quickly check if we have it installed on our system already
+cum putem verifica rapid dacă este deja instalat sau nu in sistemul nostru.
 
 19
 00:01:18,433 --> 00:01:24,433
-To do that I'll want to launch the console
-which on Window is
+Pentru ca să fac aces lucru voi vrea să lansez consola
+care în Windows este
 
 20
 00:01:24,433 --> 00:01:30,099
-the "Command Prompt" or on Linux and Mac is called the "Terminal"
+"Command Prompt" sau pe Linux si Mac este "Terminal"
 
 21
 00:01:30,100 --> 00:01:36,333
-So, to launch the console on Windows I'll hold the "Start" key and press "R"
+Așadar, ca să pornesc consola pe Windows voi ține apăsat "Start" și tasta "R"
 
 22
 00:01:38,466 --> 00:01:41,666
-and inside here I'll type: c m d
+și înauntru voi tasta: cmd
 
 23
 00:01:41,666 --> 00:01:45,666
-short for command, and hit "enter"
+scurt pentru "command" și voi apăsa "Enter".
 
 24
 00:01:45,666 --> 00:01:50,232

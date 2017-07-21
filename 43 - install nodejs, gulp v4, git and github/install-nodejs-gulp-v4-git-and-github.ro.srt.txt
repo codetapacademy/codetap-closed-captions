@@ -1,0 +1,529 @@
+﻿1
+00:00:00,000 --> 00:00:05,333
+Instalează NodeJS, Gulp, Git și GitHub.
+
+2
+00:00:05,333 --> 00:00:10,199
+Astăzi, vom instala unelte care ne vor ajuta să dezvoltăm mai repede
+
+3
+00:00:10,200 --> 00:00:12,333
+și să fim mai eficienți.
+
+4
+00:00:12,333 --> 00:00:16,799
+This setup is only needed once per computer.
+
+5
+00:00:16,800 --> 00:00:21,766
+Unless you want to tweak something about it you'll even forget it
+
+6
+00:00:21,766 --> 00:00:25,766
+So make sure to pay a visit back here in case you do so.
+
+7
+00:00:25,766 --> 00:00:28,399
+With that said, let's get down to it.
+
+8
+00:00:30,300 --> 00:00:35,033
+Hey! What's up guys. I'm Marian and my passion is to create the web
+
+9
+00:00:35,033 --> 00:00:37,466
+and help you be part of it.
+
+10
+00:00:37,466 --> 00:00:40,966
+If you're new over here, this is CodeTap
+
+11
+00:00:40,966 --> 00:00:44,999
+where you'll learn to code websites like a professional
+
+12
+00:00:45,000 --> 00:00:50,166
+with or without any knowledge of coding.
+So consider subscribing.
+
+13
+00:00:50,166 --> 00:00:54,432
+Our first step for today is to install NodeJS
+
+14
+00:00:54,433 --> 00:01:01,199
+NodeJS is the JavaScript engine that runs inside your Google Chrome browser.
+
+15
+00:01:01,200 --> 00:01:06,733
+By installing it we'll be able to run JavaScript on our system
+
+16
+00:01:06,733 --> 00:01:10,366
+without the need to be inside a browser.
+
+17
+00:01:10,366 --> 00:01:13,332
+Before we install it let's find out
+
+18
+00:01:13,333 --> 00:01:18,433
+how we can quickly check if we have it installed on our system already
+
+19
+00:01:18,433 --> 00:01:24,433
+To do that I'll want to launch the console
+which on Window is
+
+20
+00:01:24,433 --> 00:01:30,099
+the "Command Prompt" or on Linux and Mac is called the "Terminal"
+
+21
+00:01:30,100 --> 00:01:36,333
+So, to launch the console on Windows I'll hold the "Start" key and press "R"
+
+22
+00:01:38,466 --> 00:01:41,666
+and inside here I'll type: c m d
+
+23
+00:01:41,666 --> 00:01:45,666
+short for command, and hit "enter"
+
+24
+00:01:45,666 --> 00:01:50,232
+over here I'll say:
+node -v
+
+25
+00:01:51,600 --> 00:01:55,466
+and there are two possible outcomes. If we have node installed
+
+26
+00:01:55,466 --> 00:01:59,732
+we get the version of node, if we don't the system will let us know
+
+27
+00:01:59,733 --> 00:02:04,633
+that it know nothing about this "node" command.
+
+28
+00:02:04,633 --> 00:02:10,366
+ with that said let's go and google 
+"nodejs download"
+
+29
+00:02:14,766 --> 00:02:19,166
+We'll follow the nodejs.org/download link
+
+30
+00:02:19,166 --> 00:02:25,632
+and unless you have a specific requirement for a version of node
+
+31
+00:02:25,633 --> 00:02:29,099
+I'll recommend you to go and click the "Current"
+
+32
+00:02:29,100 --> 00:02:33,766
+and grab the latest and greatest version of NodeJS
+
+33
+00:02:33,766 --> 00:02:37,532
+The one that's appropriate for your operating system.
+
+34
+00:02:37,533 --> 00:02:43,099
+I'll chose the 64 bit version 
+msi installer for Windows
+
+35
+00:02:43,100 --> 00:02:47,600
+I'll download it
+
+36
+00:02:47,600 --> 00:02:50,833
+and run the file once the download is finished.
+
+37
+00:02:50,833 --> 00:02:55,999
+I'll click a couple of times next until the install process is finished.
+
+38
+00:02:59,133 --> 00:03:03,133
+I'll quickly close the command line
+
+39
+00:03:05,233 --> 00:03:08,799
+so we can practice opening it again
+
+40
+00:03:12,500 --> 00:03:17,100
+once the installer is finished I'll hold the "Start" key and press "R"
+
+41
+00:03:19,133 --> 00:03:21,599
+I'll type "cmd" and hit "Enter"
+
+42
+00:03:21,600 --> 00:03:26,200
+and say "node -v"
+
+43
+00:03:27,500 --> 00:03:34,166
+and we can see that node is installed and the version of it is 8.2.0
+
+44
+00:03:34,166 --> 00:03:42,599
+On Windows the NodeJS installer also installs for us the Node Package Manager
+
+45
+00:03:42,600 --> 00:03:46,333
+which we'll be using a lot in our future projects
+
+46
+00:03:46,333 --> 00:03:50,166
+so to check for the Node Package Manager version
+
+47
+00:03:50,166 --> 00:03:57,166
+let's type:
+npm -v
+
+48
+00:03:57,166 --> 00:04:02,832
+and we can see that we have the 5.3.0 version installed
+
+49
+00:04:02,833 --> 00:04:06,033
+Our second step is to install "Gulp"
+
+50
+00:04:06,033 --> 00:04:12,099
+Gulp will be responsible for watching files, running build processes
+
+51
+00:04:12,100 --> 00:04:17,366
+like: compressing images, convert "pug" to "HTML",
+
+52
+00:04:17,366 --> 00:04:24,566
+optimize content, refresh our browser automatically when changes occur, 
+
+53
+00:04:24,566 --> 00:04:29,866
+and many other features that we'll see in our next lessons.
+
+54
+00:04:29,866 --> 00:04:34,999
+now let's firstly check if we have "gulp" installed already or not.
+
+55
+00:04:35,000 --> 00:04:41,000
+to do that we'll type:
+gulp -v
+
+56
+00:04:41,000 --> 00:04:44,566
+and we get "gulp is not recognized
+
+57
+00:04:44,566 --> 00:04:49,766
+as an internal or external command", which means we don't have installed on our system
+
+58
+00:04:49,766 --> 00:04:54,532
+to install it we'll ask our Node Package Manager
+
+59
+00:04:54,533 --> 00:05:01,099
+to install gulp globally so it'll be available for all our projects
+
+60
+00:05:01,100 --> 00:05:05,700
+so "npm i" for install,
+
+61
+00:05:05,700 --> 00:05:10,033
+space " -g" for global
+
+62
+00:05:10,033 --> 00:05:14,099
+and the name of the package is "gulp-cli"
+
+63
+00:05:14,100 --> 00:05:18,700
+hyphen c l i
+
+64
+00:05:21,500 --> 00:05:26,000
+this will grab gulp and install it on our computer
+
+65
+00:05:29,066 --> 00:05:34,632
+once this is finished we can check if gulp is installed on our computer, again
+
+66
+00:05:35,633 --> 00:05:39,866
+gulp -v
+
+67
+00:05:40,766 --> 00:05:45,032
+and we can see that the cli version is 1.2.0
+
+68
+00:05:45,033 --> 00:05:49,233
+and this is the same as gulp version 4
+
+69
+00:05:49,233 --> 00:05:52,599
+Our next step is to install "git".
+
+70
+00:05:52,600 --> 00:05:55,966
+Git is a version control system.
+
+71
+00:05:55,966 --> 00:06:00,266
+it allows us to keep track of our changes and our files
+
+72
+00:06:00,266 --> 00:06:03,999
+just like "steps.html" did for us
+
+73
+00:06:04,000 --> 00:06:07,600
+in "coding is for everyone" beginner series.
+
+74
+00:06:07,600 --> 00:06:13,933
+with the exception that this is a professional tool that almost all developers use
+
+75
+00:06:13,933 --> 00:06:16,499
+this is just the tip of the iceberg
+
+76
+00:06:16,500 --> 00:06:20,100
+as git has lots of other features to offer us
+
+77
+00:06:20,100 --> 00:06:23,233
+like: code reviews, project management, 
+
+78
+00:06:23,233 --> 00:06:26,066
+code hosting and so many more
+
+79
+00:06:26,066 --> 00:06:30,632
+now let's check if we have git installed on our system already
+
+80
+00:06:30,633 --> 00:06:33,833
+to do that we just type: git
+
+81
+00:06:33,833 --> 00:06:38,166
+and we get that Windows does not recognize this
+
+82
+00:06:38,166 --> 00:06:42,766
+so, to install git, let's google it:
+
+83
+00:06:42,766 --> 00:06:47,366
+download git
+
+84
+00:06:50,733 --> 00:06:55,333
+we'll follow the "git-scm.com/downloads" link
+
+85
+00:06:56,333 --> 00:06:59,599
+and get the appropriate version for your operating system
+
+86
+00:06:59,600 --> 00:07:02,233
+I'll chose the Windows one
+
+87
+00:07:03,800 --> 00:07:08,400
+and save it in my downloads and run the file once it finishes downloading
+
+88
+00:07:14,366 --> 00:07:18,966
+I'll next, next a couple of times
+
+89
+00:07:22,866 --> 00:07:26,232
+and close the command prompt
+
+90
+00:07:26,233 --> 00:07:29,533
+so we can practice opening it again
+
+91
+00:07:31,466 --> 00:07:36,066
+once the installer is finished let's open our command line again
+
+92
+00:07:36,166 --> 00:07:40,766
+hitting "Start" and "R" key
+
+93
+00:07:41,633 --> 00:07:44,499
+I'll type "cmd" and hit "Enter" 
+
+94
+00:07:44,933 --> 00:07:46,566
+and say "git"
+
+95
+00:07:47,133 --> 00:07:51,733
+this time we get a message
+
+96
+00:07:51,733 --> 00:07:56,099
+with some help information: how to use git
+
+97
+00:07:56,100 --> 00:07:59,133
+that means we have git installed on our computer
+
+98
+00:07:59,133 --> 00:08:03,733
+Our next step is to create a GitHub account
+
+99
+00:08:04,966 --> 00:08:09,566
+So let's visit GitHub.com
+
+100
+00:08:11,333 --> 00:08:16,566
+I'll encourage you to signup for GitHub and just follow the steps
+
+101
+00:08:16,566 --> 00:08:23,399
+chose the free version as for the moment it's not necessary to have a paid version
+
+102
+00:08:23,766 --> 00:08:26,699
+I already have a GitHub account created
+
+103
+00:08:26,700 --> 00:08:29,066
+So I will sign in
+
+104
+00:08:32,800 --> 00:08:36,200
+Once you're signed in to your account
+
+105
+00:08:36,766 --> 00:08:40,632
+all you need to do is search for "pug starter"
+
+106
+00:08:40,966 --> 00:08:49,099
+p u g s t a r t e r, pug starter
+
+107
+00:08:51,133 --> 00:08:57,299
+and we look a bit down where you see:
+marianzburlea/pug-starter
+
+108
+00:09:00,366 --> 00:09:06,866
+alternatively, you can type in after github.com/
+
+109
+00:09:07,300 --> 00:09:22,600
+m a r i a n z b u r l e a / p u g - s t a r t e r,
+
+110
+00:09:23,433 --> 00:09:27,999
+marianzburlea/pug-starter
+
+111
+00:09:28,000 --> 00:09:31,400
+and I want you to click on this "star" button
+
+112
+00:09:31,400 --> 00:09:34,300
+so you add this project to your favourites
+
+113
+00:09:34,300 --> 00:09:37,366
+so next time, instead of searching for it
+
+114
+00:09:37,366 --> 00:09:42,066
+you'll go to the top-right corner and click on your profile icon
+
+115
+00:09:42,066 --> 00:09:46,399
+and choose from the menu "your stars"
+
+116
+00:09:46,400 --> 00:09:50,033
+and you can find here all your favourite projects
+
+117
+00:09:50,033 --> 00:09:53,566
+and among them it'll be "pug starter"
+
+118
+00:09:53,566 --> 00:09:59,532
+Our last step would be to install a text editor like: Visual Studio Code
+
+119
+00:09:59,533 --> 00:10:02,499
+If you haven't already installed it
+
+120
+00:10:02,500 --> 00:10:06,066
+checkout the description of this video below
+
+121
+00:10:06,066 --> 00:10:10,666
+and you'll find out links towards "how to install visual studio code"
+
+122
+00:10:10,666 --> 00:10:13,432
+or Atom text editor
+
+123
+00:10:13,966 --> 00:10:18,566
+Other editors that I recommend are:
+Sublime or Web Storm
+
+124
+00:10:18,566 --> 00:10:23,366
+or any other text editor that you feel comfortable with.
+
+125
+00:10:23,366 --> 00:10:26,032
+That was it for today guys! I'm so excited
+
+126
+00:10:26,033 --> 00:10:31,399
+I'll be waiting for you in our next episode where we'll start to build properly
+
+127
+00:10:31,400 --> 00:10:37,100
+a professional web site. We'll start recreating our previous project.
+
+128
+00:10:37,100 --> 00:10:40,700
+If you're new over here I encourage you to subscribe.
+
+129
+00:10:40,700 --> 00:10:43,600
+Coz' there'll be more great content like this coming up.
+
+130
+00:10:43,600 --> 00:10:45,866
+So, I'll see you in the next lesson.
+

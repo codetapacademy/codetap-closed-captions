@@ -94,176 +94,178 @@ scurt pentru "command" și voi apăsa "Enter".
 
 24
 00:01:45,666 --> 00:01:50,232
-over here I'll say:
+aici voi scrie:
 node -v
 
 25
 00:01:51,600 --> 00:01:55,466
-and there are two possible outcomes. If we have node installed
+si sunt două posibilități: dacă ai instalat node
 
 26
 00:01:55,466 --> 00:01:59,732
-we get the version of node, if we don't the system will let us know
+vom afla versiunea acestuia, iar dacă nu-l avem sistemul ne va anunța
 
 27
 00:01:59,733 --> 00:02:04,633
-that it know nothing about this "node" command.
+că nu știe nimic despre comanda "node".
 
 28
 00:02:04,633 --> 00:02:10,366
- with that said let's go and google 
+cu acestea spuse hai să căutăm pe Google
 "nodejs download"
 
 29
 00:02:14,766 --> 00:02:19,166
-We'll follow the nodejs.org/download link
+Vom urmări legătura nodejs.org/download
 
 30
 00:02:19,166 --> 00:02:25,632
-and unless you have a specific requirement for a version of node
+iar dacă nu aveți vreo cerință de versiune specifică
 
 31
 00:02:25,633 --> 00:02:29,099
-I'll recommend you to go and click the "Current"
+Vă recomand să apăsați pe "Current"
 
 32
 00:02:29,100 --> 00:02:33,766
-and grab the latest and greatest version of NodeJS
+și să alegeți ultima și cea mai tare versiune de NodeJS
 
 33
 00:02:33,766 --> 00:02:37,532
-The one that's appropriate for your operating system.
+care se potrivește cu sistemul vostru de operare.
 
 34
 00:02:37,533 --> 00:02:43,099
-I'll chose the 64 bit version 
-msi installer for Windows
+Voi alege versiunea de instalator msi 
+pe 64 bit pentru Windows
 
 35
 00:02:43,100 --> 00:02:47,600
-I'll download it
+O voi descărca
 
 36
 00:02:47,600 --> 00:02:50,833
-and run the file once the download is finished.
+și o voi executa cănd se termină descărcarea.
 
 37
 00:02:50,833 --> 00:02:55,999
-I'll click a couple of times next until the install process is finished.
+Voi apăsa Următorul, Următorul de câteva ori 
+până se va termina instalarea.
 
 38
 00:02:59,133 --> 00:03:03,133
-I'll quickly close the command line
+Voi închide rapid consola
 
 39
 00:03:05,233 --> 00:03:08,799
-so we can practice opening it again
+pentru ca să putem practica deschiderea ei iar
 
 40
 00:03:12,500 --> 00:03:17,100
-once the installer is finished I'll hold the "Start" key and press "R"
+Cănd se termină instalarea voi ține apăsat
+"Start" și tasta "R"
 
 41
 00:03:19,133 --> 00:03:21,599
-I'll type "cmd" and hit "Enter"
+Voi scrie "cmd" și voi apăsa "Enter"
 
 42
 00:03:21,600 --> 00:03:26,200
-and say "node -v"
+și voi scrie "node -v"
 
 43
 00:03:27,500 --> 00:03:34,166
-and we can see that node is installed and the version of it is 8.2.0
+și putem observa că node este instalat iar versiunea este 8.2.0
 
 44
 00:03:34,166 --> 00:03:42,599
-On Windows the NodeJS installer also installs for us the Node Package Manager
+Pe Windows instalatorul NodeJS va instala de asemenea Node Package Manager
 
 45
 00:03:42,600 --> 00:03:46,333
-which we'll be using a lot in our future projects
+pe care-l vom folosi foarte des în proiectele noastre viitoare.
 
 46
 00:03:46,333 --> 00:03:50,166
-so to check for the Node Package Manager version
+Așadar, pentru a verifica versiunea de Node Package Manager
 
 47
 00:03:50,166 --> 00:03:57,166
-let's type:
+să scriem:
 npm -v
 
 48
 00:03:57,166 --> 00:04:02,832
-and we can see that we have the 5.3.0 version installed
+și putem observa că avem versiunea 5.3.0 instalată.
 
 49
 00:04:02,833 --> 00:04:06,033
-Our second step is to install "Gulp"
+Al doilea pas este să instalăm "Gulp"
 
 50
 00:04:06,033 --> 00:04:12,099
-Gulp will be responsible for watching files, running build processes
+Gulp va fi responsabil să monitorizeze fișiere, să execute procese
 
 51
 00:04:12,100 --> 00:04:17,366
-like: compressing images, convert "pug" to "HTML",
+precum: compresare de imagini, conversie "pug" în "HTML",
 
 52
 00:04:17,366 --> 00:04:24,566
-optimize content, refresh our browser automatically when changes occur, 
+optimizare conținut, reîncărcare automată a navigatorului când se produc schimbări, 
 
 53
 00:04:24,566 --> 00:04:29,866
-and many other features that we'll see in our next lessons.
+și multe alte abilități pe care le vom vedea in episoadele ce urmează.
 
 54
 00:04:29,866 --> 00:04:34,999
-now let's firstly check if we have "gulp" installed already or not.
+Acum, hai să verificăm dacă avem gulp instalat sau nu.
 
 55
 00:04:35,000 --> 00:04:41,000
-to do that we'll type:
+Pentru a face asta, scriem:
 gulp -v
 
 56
 00:04:41,000 --> 00:04:44,566
-and we get "gulp is not recognized
+și primim "gulp is not recognized
 
 57
 00:04:44,566 --> 00:04:49,766
-as an internal or external command", which means we don't have installed on our system
+as an internal or external command", care înseamnă că nu îl avem instalat în sistem.
 
 58
 00:04:49,766 --> 00:04:54,532
-to install it we'll ask our Node Package Manager
+Pentru a-l instala îi cerem lui Node Package Manager
 
 59
 00:04:54,533 --> 00:05:01,099
-to install gulp globally so it'll be available for all our projects
+să instaleze gulp global pentru a-l avea la dispoziția tuturor proiectelor.
 
 60
 00:05:01,100 --> 00:05:05,700
-so "npm i" for install,
+Așadar, "npm i" pentru instalare,
 
 61
 00:05:05,700 --> 00:05:10,033
-space " -g" for global
+spațiu " -g" pentru global
 
 62
 00:05:10,033 --> 00:05:14,099
-and the name of the package is "gulp-cli"
+iar numele pachetului este "gulp-cli"
 
 63
 00:05:14,100 --> 00:05:18,700
-hyphen c l i
+minus c l i
 
 64
 00:05:21,500 --> 00:05:26,000
-this will grab gulp and install it on our computer
+aceasta va instala gulp pe calculatorul nostru.
 
 65
 00:05:29,066 --> 00:05:34,632
-once this is finished we can check if gulp is installed on our computer, again
+Odată ce instalarea este gata, putem verifica iar dacă gulp este instalat astfel:
 
 66
 00:05:35,633 --> 00:05:39,866
@@ -271,31 +273,31 @@ gulp -v
 
 67
 00:05:40,766 --> 00:05:45,032
-and we can see that the cli version is 1.2.0
+și putem observa că versiunea cli este 1.2.0
 
 68
 00:05:45,033 --> 00:05:49,233
-and this is the same as gulp version 4
+care este același lucru precum versiunea gulp 4
 
 69
 00:05:49,233 --> 00:05:52,599
-Our next step is to install "git".
+Pasul următor este să instalăm "git".
 
 70
 00:05:52,600 --> 00:05:55,966
-Git is a version control system.
+Git este un sistem de control al verionării.
 
 71
 00:05:55,966 --> 00:06:00,266
-it allows us to keep track of our changes and our files
+care ne permite să ținem evidența modificărilor și fișierelor
 
 72
 00:06:00,266 --> 00:06:03,999
-just like "steps.html" did for us
+precum a făcut "steps.html"
 
 73
 00:06:04,000 --> 00:06:07,600
-in "coding is for everyone" beginner series.
+din seria "programarea este pentru toți" pentru începători.
 
 74
 00:06:07,600 --> 00:06:13,933

@@ -1,0 +1,810 @@
+﻿1
+00:00:00,000 --> 00:00:05,833
+1, 2, 3 easy steps on 
+how to build a website for free
+
+2
+00:00:05,833 --> 00:00:11,866
+In this video I’ll share with you how to create a website without paying a dime
+
+3
+00:00:11,866 --> 00:00:16,232
+That’s right, totally free. More about it, coming up!
+
+4
+00:00:17,800 --> 00:00:19,266
+What's up guys and girls.  
+
+5
+00:00:19,266 --> 00:00:22,499
+I'm Marian and my passion is to create the web
+
+6
+00:00:22,500 --> 00:00:24,933
+and help you be part of it.
+
+7
+00:00:24,933 --> 00:00:30,533
+If you're new over here, this is CodeTap where you'll master how to build websites,
+
+8
+00:00:30,533 --> 00:00:36,933
+how to create a website from scratch, with or without any knowledge of coding
+
+9
+00:00:36,933 --> 00:00:38,466
+so consider subscribing.
+
+10
+00:00:38,466 --> 00:00:42,532
+If you appreciate me, make sure to drop a like on this video
+
+11
+00:00:42,533 --> 00:00:45,299
+ as I would really be very grateful for that.
+
+12
+00:00:45,300 --> 00:00:51,633
+This setup needs NodeJS and Gulp to run properly. If you haven't got those ones
+
+13
+00:00:51,633 --> 00:00:54,466
+check the “required tools” playlist 
+
+14
+00:00:54,466 --> 00:00:58,699
+in the link above or in the description below and get it done.
+
+15
+00:00:58,700 --> 00:01:03,200
+Before we start with our three steps, let’s have a look 
+
+16
+00:01:03,200 --> 00:01:07,700
+at our final project website that we’re about to build.
+
+17
+00:01:09,266 --> 00:01:15,866
+OK guys. On the left side we've got our w3schools replica
+
+18
+00:01:15,866 --> 00:01:20,732
+ and on the right side we've got w3schools.com, the real website
+
+19
+00:01:20,733 --> 00:01:23,699
+We've created a similar top navigation menu
+
+20
+00:01:23,700 --> 00:01:29,000
+the left navigation menu and the center of if which is the content.
+
+21
+00:01:29,000 --> 00:01:33,766
+I've changed a bit the footer as it's a more commonly used scenario
+
+22
+00:01:33,766 --> 00:01:36,599
+which will benefit you in the long run
+
+23
+00:01:36,600 --> 00:01:42,233
+we can also navigate through this to secondary landing pages
+
+24
+00:01:42,233 --> 00:01:46,633
+and then, one more level deep down
+
+25
+00:01:46,633 --> 00:01:49,199
+that's it, now let's go to our three steps.
+
+26
+00:01:49,200 --> 00:01:53,200
+we want to open our console
+
+27
+00:01:53,200 --> 00:01:57,966
+our terminal, "cmd" on Windows
+
+28
+00:01:57,966 --> 00:02:05,666
+and let's create a directory using the "mkdir" command: mkdir
+
+29
+00:02:05,666 --> 00:02:14,099
+and the name of the directory, I'll name it "cool-stuff" and hit "Enter"
+
+30
+00:02:14,100 --> 00:02:18,100
+then we want to change into this "cool-stuff" directory
+
+31
+00:02:18,100 --> 00:02:22,100
+using "cd cool-stuff"
+
+32
+00:02:22,100 --> 00:02:26,100
+once I've typed in enough letters I can press "Tab"
+
+33
+00:02:26,100 --> 00:02:30,100
+until I get the right directory and hit "Enter"
+
+34
+00:02:30,100 --> 00:02:34,900
+In this "cool-stuff" directory we'll put all of our future projects.
+
+35
+00:02:34,900 --> 00:02:38,900
+So let's start with our first step.
+
+36
+00:02:38,900 --> 00:02:42,900
+Let's go back to our browser and
+
+37
+00:02:42,900 --> 00:02:50,066
+and navigate to github.com
+I'll bump this up using "Ctrl and +" a few times
+
+38
+00:02:50,066 --> 00:02:54,066
+Let's go on your profile and choose "your stars"
+
+39
+00:02:54,066 --> 00:02:58,832
+Over here look for "pug-starter" and click on it
+
+40
+00:02:58,833 --> 00:03:02,833
+If you haven't got "pug-starter" to your favourites
+
+41
+00:03:02,833 --> 00:03:06,566
+This is the address where you can find it:
+"https://github.com/marianzburlea/pug-starter"
+
+42
+00:03:06,566 --> 00:03:12,532
+and once you're on the landing page you can use the "star" button to add it to your favourites
+
+43
+00:03:12,533 --> 00:03:16,533
+So it can be easily and quickly accessible later on.
+
+44
+00:03:16,533 --> 00:03:22,866
+The next step is to click on this green button, the "clone or download"
+
+45
+00:03:22,866 --> 00:03:26,866
+followed by copy to clipboard
+
+46
+00:03:26,866 --> 00:03:28,732
+Once we've got this text copied
+
+47
+00:03:28,733 --> 00:03:32,499
+let's switch back to our command line and do the first step.
+
+48
+00:03:32,500 --> 00:03:38,266
+which is: make a copy of this repository on my computer from GitHub
+
+49
+00:03:38,266 --> 00:03:44,699
+git clone, let's paste the path and then
+
+50
+00:03:44,700 --> 00:03:53,233
+hit "space" and give it a name. I'll name it "w3schools-replica"
+
+51
+00:03:56,266 --> 00:04:00,266
+Now, let's change into our new directory
+
+52
+00:04:00,266 --> 00:04:05,066
+using "dir" we can see that git created for us "w3schools-replica"
+
+53
+00:04:05,066 --> 00:04:11,266
+so let's say "cd w3" and let's press "Tab"
+
+54
+00:04:11,266 --> 00:04:13,932
+And hit "Enter"
+
+55
+00:04:13,933 --> 00:04:23,399
+Over here, if we say "dir", on Linux and Mac it's "ls -lah"
+
+56
+00:04:23,400 --> 00:04:29,333
+to do the same as "dir". Se we can see that we have a bunch of files over here and
+
+57
+00:04:29,333 --> 00:04:35,966
+if we say "git status" git will give us a message which means it's tracking this repository
+
+58
+00:04:35,966 --> 00:04:43,399
+if we say "git remote -v" we can see that 
+
+59
+00:04:43,400 --> 00:04:47,433
+this project is still linked to "marianzburlea/pug-starter"
+
+60
+00:04:47,433 --> 00:04:53,633
+so we want to unlink it from there and link it to our personal project
+
+61
+00:04:53,633 --> 00:04:58,166
+in every project git keeps it's files in a .git folder
+
+62
+00:04:58,166 --> 00:05:00,599
+so we want to remove that at the moment
+
+63
+00:05:00,600 --> 00:05:07,666
+so on Linux and Mac we'll say "rm -rf .git"
+
+64
+00:05:07,666 --> 00:05:09,366
+which will remove the ".git folder"
+
+65
+00:05:09,366 --> 00:05:16,399
+on Windows we'll say "rd /s /q .git"
+
+66
+00:05:16,400 --> 00:05:19,800
+which will do exactly the same. Once we've removed the .git folder
+
+67
+00:05:19,800 --> 00:05:23,800
+if we say "git status" we'll get a fatal error.
+
+68
+00:05:23,800 --> 00:05:26,766
+which means: "git no longer tracks this project"
+
+69
+00:05:26,766 --> 00:05:31,399
+now let's fix that and go back to GitHub
+
+70
+00:05:31,400 --> 00:05:34,433
+and click this "+" icon next to your profile
+
+71
+00:05:34,433 --> 00:05:38,433
+and choose "new repository"
+
+72
+00:05:38,433 --> 00:05:43,566
+you should leave as owner your own username, I'll choose "codetapio"
+
+73
+00:05:43,566 --> 00:05:47,566
+and then I'll say "w3schools-replica"
+
+74
+00:05:47,566 --> 00:05:53,199
+The description is optional, feel free to fill in one.
+
+75
+00:05:53,200 --> 00:05:57,200
+I'll go on and hit this button "Create repository"
+
+76
+00:05:57,200 --> 00:06:02,700
+And let's pay attention to this part over here with this six lines.
+
+77
+00:06:02,700 --> 00:06:08,033
+This echo here will create a "README.md" file with this content in it.
+
+78
+00:06:08,033 --> 00:06:12,033
+This is necessary as when you want to initialize a git project
+
+79
+00:06:12,033 --> 00:06:15,366
+you need minimum one file in that project.
+
+80
+00:06:15,366 --> 00:06:22,399
+however if we say "dir" or "ls -lah" on Linux and Mac
+
+81
+00:06:22,400 --> 00:06:27,433
+we can see that we've got a bunch of files and folders so that's not the case for us
+
+82
+00:06:27,433 --> 00:06:31,433
+we'll skip this line over here and go straight to "git init"
+
+83
+00:06:31,433 --> 00:06:34,499
+Let's copy it and paste it in our command line and hit "Enter"
+
+84
+00:06:34,500 --> 00:06:39,233
+Now git has initialized a new repository in this folder.
+
+85
+00:06:39,233 --> 00:06:43,966
+If we say "git status" we no longer get a fatal error.
+
+86
+00:06:43,966 --> 00:06:47,966
+Now we also want to remove the source folder
+
+87
+00:06:47,966 --> 00:06:52,266
+as no examples files are needed because we'll start from scratch.
+
+88
+00:06:52,266 --> 00:06:56,632
+so to do that on Linux and Mac we use:
+
+89
+00:06:56,633 --> 00:07:01,899
+rm -rf src
+
+90
+00:07:01,900 --> 00:07:09,733
+and on Windows "rd /s /q src"
+
+91
+00:07:09,733 --> 00:07:15,766
+now let's go to the next one which is "git add"
+
+92
+00:07:15,766 --> 00:07:20,732
+and instead of adding the "readme" file we want to add everything
+
+93
+00:07:20,733 --> 00:07:25,566
+so when we say "git add ." it means:
+
+94
+00:07:25,566 --> 00:07:30,266
+add the current directory and everything in it so git can track it.
+
+95
+00:07:30,266 --> 00:07:37,766
+when we say "git status" we can see that the files have gone from red to green
+
+96
+00:07:37,766 --> 00:07:41,766
+which means git has started to track them.
+
+97
+00:07:41,766 --> 00:07:46,132
+Now let's save those changes with a message.
+
+98
+00:07:46,133 --> 00:07:52,266
+we can go for the default one however I recommend you to be a bit more creative
+
+99
+00:07:52,266 --> 00:07:56,432
+"This is my first save
+
+100
+00:07:56,433 --> 00:08:03,666
+in git which is called a commit
+
+101
+00:08:03,666 --> 00:08:07,666
+OK
+
+102
+00:08:07,666 --> 00:08:12,532
+The next two lines don't need any change so let's just copy / paste them
+
+103
+00:08:12,533 --> 00:08:16,533
+and hit "Enter"
+
+104
+00:08:16,533 --> 00:08:20,533
+give it a sec
+
+105
+00:08:20,533 --> 00:08:24,133
+once it's done if we refresh this page over here
+
+106
+00:08:24,133 --> 00:08:30,099
+we can see that our repository is synced from local to GitHub
+
+107
+00:08:30,100 --> 00:08:34,400
+Over here is also a commit link
+
+108
+00:08:34,400 --> 00:08:38,733
+It says: "one commit". If we click on it we can see our save
+
+109
+00:08:38,733 --> 00:08:42,733
+with the commit message.
+
+110
+00:08:42,733 --> 00:08:48,866
+Our next step is to tell node package manager to install dependencies.
+
+111
+00:08:48,866 --> 00:08:52,866
+so let's do that: 
+npm i
+
+112
+00:08:52,866 --> 00:09:06,166
+installing ...
+
+113
+00:09:06,166 --> 00:09:09,866
+Once the install is finished we can close this one.
+
+114
+00:09:09,866 --> 00:09:15,999
+And let's open a new Visual Studio Code window.
+
+115
+00:09:16,000 --> 00:09:20,000
+And add our project to it.
+
+116
+00:09:20,000 --> 00:09:24,000
+Let's add "w3schools-replica"
+
+117
+00:09:24,000 --> 00:09:31,833
+and over here, let's recreate our source folder.
+
+118
+00:09:31,833 --> 00:09:36,466
+So we'll name it "src" ... by clicking the new folder icon.
+
+119
+00:09:36,466 --> 00:09:39,632
+and in this "src" folder
+
+120
+00:09:39,633 --> 00:09:43,233
+let's create an "index.pug" file.
+
+121
+00:09:43,233 --> 00:09:47,233
+So "index.pug"
+
+122
+00:09:47,233 --> 00:09:56,366
+In this file let's do a very basic, minimal html template
+
+123
+00:09:56,366 --> 00:10:00,366
+so "doctype html"
+
+124
+00:10:00,366 --> 00:10:07,899
+Then we follow it by html, and head, and body
+
+125
+00:10:07,900 --> 00:10:12,133
+In PUG it's very important to pay attention to spacing
+
+126
+00:10:12,133 --> 00:10:14,633
+as everything needs to be indented properly
+
+127
+00:10:14,633 --> 00:10:19,966
+so children and parents can know which one is which.
+
+128
+00:10:19,966 --> 00:10:30,199
+So over here let's say in the head:
+"title this is my first pug file"
+
+129
+00:10:30,200 --> 00:10:37,033
+and a tag: "h1 Hello from PUG"
+
+130
+00:10:37,033 --> 00:10:43,399
+Let's save this and let's go for the menu: help
+
+131
+00:10:43,400 --> 00:10:47,400
+and "Keyboard shortcut reference"
+
+132
+00:10:47,400 --> 00:10:49,533
+Let's bump this a bit.
+
+133
+00:10:49,533 --> 00:10:53,533
+Let's look for "terminal"
+
+134
+00:10:53,533 --> 00:10:59,733
+So over here you have some shortcuts, just find the one for your operating system.
+
+135
+00:10:59,733 --> 00:11:03,733
+For Windows it's: 
+Ctrl + '
+
+136
+00:11:03,733 --> 00:11:07,066
+to toggle the command line or the terminal
+
+137
+00:11:07,066 --> 00:11:11,999
+So if I say " Ctrl + ' "
+
+138
+00:11:12,000 --> 00:11:16,000
+it'll toggle the command line
+
+139
+00:11:16,000 --> 00:11:21,633
+On Mac it's "alt" and some nearby key, I forgot which one it is.
+
+140
+00:11:21,633 --> 00:11:25,633
+anyway, once we've got the command line opened
+
+141
+00:11:25,633 --> 00:11:29,633
+our first step it to say: npm start
+
+142
+00:11:36,833 --> 00:11:41,433
+and it'll open the browser with our HTML page
+
+143
+00:11:41,433 --> 00:11:45,433
+Let's split this screen and play a bit with it.
+
+144
+00:11:45,433 --> 00:11:51,166
+... weird alien noise ... OK, so this should look fine.
+
+145
+00:11:51,166 --> 00:11:56,266
+now, every time we save this index.pug file
+
+146
+00:11:56,266 --> 00:12:00,266
+gulp will watch the pug file being saved
+
+147
+00:12:00,266 --> 00:12:05,666
+and compile it in the temporary folder in its corresponding index.html
+
+148
+00:12:05,666 --> 00:12:10,399
+let's open both of those ones. I'll click the split window button over here.
+
+149
+00:12:10,400 --> 00:12:16,566
+and then I'll go on the left side and choose to split them horizontally
+
+150
+00:12:16,566 --> 00:12:22,266
+so I'll have the index file, index.pug file over here
+
+151
+00:12:22,266 --> 00:12:25,332
+and the index.html file over here opened.
+
+152
+00:12:25,333 --> 00:12:29,833
+Once I make any change over here
+
+153
+00:12:29,833 --> 00:12:34,566
+watch what happens. So I make a change and then save it.
+
+154
+00:12:34,566 --> 00:12:40,299
+when I save it this dot ("circle") will dissapear over there, it'll convert, sorry
+
+155
+00:12:40,300 --> 00:12:41,900
+it'll convert into a cross.
+
+156
+00:12:41,900 --> 00:12:47,900
+Once I saved this file, gulp compiled PUG into HTML
+
+157
+00:12:47,900 --> 00:12:52,433
+the HTML file has been updated and at the same time the browser has been refreshed.
+
+158
+00:12:52,433 --> 00:12:59,499
+Let's do it one more time: "let's ... do ... it ... one ... more ... time"
+
+159
+00:12:59,500 --> 00:13:03,500
+This time I'll choose file and save. Once I click save.
+
+160
+00:13:03,500 --> 00:13:07,800
+Watch over here what happens, and then over here, and then over here.
+
+161
+00:13:07,800 --> 00:13:11,800
+So: file, save.
+
+162
+00:13:11,800 --> 00:13:16,533
+See? index.pug has been converted into HTML
+
+163
+00:13:16,533 --> 00:13:20,366
+by the gulp process that watched that file
+
+164
+00:13:20,366 --> 00:13:22,166
+also the browser has been refreshed.
+
+165
+00:13:22,166 --> 00:13:26,999
+You'd be quick to notice that in pug we no longer have to have
+
+166
+00:13:27,000 --> 00:13:31,600
+opening and closing brackets and opening and closing tags
+
+167
+00:13:31,600 --> 00:13:35,833
+we just type the tag name followed by a space and then the contents of it
+
+168
+00:13:35,833 --> 00:13:38,366
+more about pug coming up.
+
+169
+00:13:38,366 --> 00:13:44,099
+and if you want to skip ahead and become more comfortable with pug
+
+170
+00:13:44,100 --> 00:13:46,966
+just go and Google: pug language
+
+171
+00:13:46,966 --> 00:13:52,099
+then head on over to pugjs.org
+
+172
+00:13:52,100 --> 00:13:57,366
+and read a bit of the documentation over here.
+
+173
+00:13:57,366 --> 00:14:06,132
+You'd find more example on what you'd write in Pug and what you'd get in HTML
+
+174
+00:14:06,133 --> 00:14:08,833
+
+
+175
+00:14:08,833 --> 00:14:11,833
+so this is the end of part one 
+
+176
+00:14:11,833 --> 00:14:18,633
+where we’ve discovered how to start a website from scratch, for free in three easy steps
+
+177
+00:14:18,633 --> 00:14:22,866
+In part two we’ll create our landing page and style it
+
+178
+00:14:22,866 --> 00:14:26,866
+
+
+179
+00:14:26,866 --> 00:14:30,999
+Make sure to follow CodeTap on YouTube and FaceBook.
+
+180
+00:14:31,000 --> 00:14:34,866
+Other two resources that I really recommend are:
+
+181
+00:14:34,866 --> 00:14:38,866
+W3schools.com, where you can literally start from scratch 
+
+182
+00:14:38,866 --> 00:14:44,866
+and discover more about HTML, CSS, JavaScript and so many more
+
+183
+00:14:44,866 --> 00:14:48,866
+another one that goes hand in hand with w3schools
+
+184
+00:14:48,866 --> 00:14:54,099
+is Free Code Camp where you can put in practice your new skills and test them
+
+185
+00:14:54,100 --> 00:14:57,100
+You can go on FaceBook and seach:
+Free Code Camp
+
+186
+00:14:57,100 --> 00:15:01,666
+and join the world wide community or one that's closer to you.
+
+187
+00:15:01,666 --> 00:15:04,699
+I really like the challenges on free code camp
+
+188
+00:15:04,700 --> 00:15:11,000
+as they will prepare you and are really close to future real world client requirements.
+
+189
+00:15:11,000 --> 00:15:14,533
+Thanks for watching this video.
+You've been really amazin.
+
+190
+00:15:14,533 --> 00:15:20,533
+One of the most powerful tools to help you understand the world of coding
+
+191
+00:15:20,533 --> 00:15:23,633
+is to leverage the power of a community
+
+192
+00:15:23,633 --> 00:15:26,499
+and you can do that by leaving comments
+
+193
+00:15:26,500 --> 00:15:29,700
+so go on and leave a comment right now.
+
+194
+00:15:29,700 --> 00:15:33,200
+Be as descriptive as possible as help is on the way.
+
+195
+00:15:33,200 --> 00:15:38,433
+I promise that I'll do my best to answer each and everyone of your comments.
+
+196
+00:15:38,433 --> 00:15:41,099
+Now show me some real love and give me the 
+
+197
+00:15:41,100 --> 00:15:44,600
+thumbs up if you like this video or 
+thumbs down if you didn't
+
+198
+00:15:44,600 --> 00:15:47,166
+Subscribe NOW if you haven't done so
+
+199
+00:15:47,166 --> 00:15:50,899
+to skyrocket your web developer career.
+
+200
+00:15:50,900 --> 00:15:55,700
+I'll see you in the next lesson and as always:
+Create something awesome!
+

@@ -102,169 +102,169 @@ asta e, acum sa revenim la cei trei pași.
 
 26
 00:01:49,200 --> 00:01:53,200
-we want to open our console
+Vrem să deschidem consola.
 
 27
 00:01:53,200 --> 00:01:57,966
-our terminal, "cmd" on Windows
+terminalul, "cmd" pentru Windows
 
 28
 00:01:57,966 --> 00:02:05,666
-and let's create a directory using the "mkdir" command: mkdir
+și hai sa creăm un director folosind "mkdir" command: mkdir
 
 29
 00:02:05,666 --> 00:02:14,099
-and the name of the directory, I'll name it "cool-stuff" and hit "Enter"
+și numele directorului, il voi denumii "cool-stuff" și apas "Enter"
 
 30
 00:02:14,100 --> 00:02:18,100
-then we want to change into this "cool-stuff" directory
+după care vrem să ne mutăm pe acest director numit "cool-stuff"
 
 31
 00:02:18,100 --> 00:02:22,100
-using "cd cool-stuff"
+folosind "cd cool-stuff"
 
 32
 00:02:22,100 --> 00:02:26,100
-once I've typed in enough letters I can press "Tab"
+odată ce ma tastat suficiente litere pot apăsa "Tab"
 
 33
 00:02:26,100 --> 00:02:30,100
-until I get the right directory and hit "Enter"
+pana ajung la directorul corespunzător si apăs "Enter"
 
 34
 00:02:30,100 --> 00:02:34,900
-In this "cool-stuff" directory we'll put all of our future projects.
+In acest director numit "cool-stuff" vom pune toate proiectele noastre viitoare.
 
 35
 00:02:34,900 --> 00:02:38,900
-So let's start with our first step.
+Așa că putem incepe cu primul pas.
 
 36
 00:02:38,900 --> 00:02:42,900
-Let's go back to our browser and
+Ne intoarcem la browser si navigam pe github.com
 
 37
 00:02:42,900 --> 00:02:50,066
-and navigate to github.com
-I'll bump this up using "Ctrl and +" a few times
+Am să folosesc "Ctrl și +" de cateva ori
 
 38
 00:02:50,066 --> 00:02:54,066
-Let's go on your profile and choose "your stars"
+Hai să mergem pe profilul tau si sa alegem "stelele tale"
 
 39
 00:02:54,066 --> 00:02:58,832
-Over here look for "pug-starter" and click on it
+Aici caută "pug-starter" și da clic pe el
 
 40
 00:02:58,833 --> 00:03:02,833
-If you haven't got "pug-starter" to your favourites
+Dacă nu ai "pug-starter" la favorite
 
 41
 00:03:02,833 --> 00:03:06,566
-This is the address where you can find it:
+Asta este adresa unde il poți găsi 
 "https://github.com/marianzburlea/pug-starter"
 
 42
 00:03:06,566 --> 00:03:12,532
-and once you're on the landing page you can use the "star" button to add it to your favourites
+si odată ce vă aflați pe pagina de destinație puteți folosi butonul "star" pentru a-l adăuga la favorite 
 
 43
 00:03:12,533 --> 00:03:16,533
-So it can be easily and quickly accessible later on.
+Deci, poate fi ușor și rapid accesibil mai târziu
+
 
 44
 00:03:16,533 --> 00:03:22,866
-The next step is to click on this green button, the "clone or download"
+Următorul pas este să faceți clic pe acest buton verde, "clone or download"
 
 45
 00:03:22,866 --> 00:03:26,866
-followed by copy to clipboard
+urmat de copy to clipboard
 
 46
 00:03:26,866 --> 00:03:28,732
-Once we've got this text copied
+Odată ce am copiat acest text
 
 47
 00:03:28,733 --> 00:03:32,499
-let's switch back to our command line and do the first step.
+Să revenim la linia de comandă și să facem primul pas.
 
 48
 00:03:32,500 --> 00:03:38,266
-which is: make a copy of this repository on my computer from GitHub
+Care este: faceți o copie a acestui depozit pe computerul meu de la GitHub
 
 49
 00:03:38,266 --> 00:03:44,699
-git clone, let's paste the path and then
+git clone, hai să lipim calea și apoi
 
 50
 00:03:44,700 --> 00:03:53,233
-hit "space" and give it a name. I'll name it "w3schools-replica"
+apăsați "spațiu" și dați-i un nume. O voi numi "w3schools-replica"
 
 51
 00:03:56,266 --> 00:04:00,266
-Now, let's change into our new directory
+Acum, să ne schimbăm în noul nostru director
 
 52
 00:04:00,266 --> 00:04:05,066
-using "dir" we can see that git created for us "w3schools-replica"
+Folosind "dir" putem vedea că git a creat pentru noi "w3schools-replica"
 
 53
 00:04:05,066 --> 00:04:11,266
-so let's say "cd w3" and let's press "Tab"
+Deci să spunem "cd w3" și să apăsăm "Tab"
 
 54
 00:04:11,266 --> 00:04:13,932
-And hit "Enter"
+Și apăsați pe "Enter"
 
 55
 00:04:13,933 --> 00:04:23,399
-Over here, if we say "dir", on Linux and Mac it's "ls -lah"
+Aici, dacă spunem "dir", pe Linux și "ls -lah" pe Mac 
 
 56
 00:04:23,400 --> 00:04:29,333
-to do the same as "dir". Se we can see that we have a bunch of files over here and
+pentru a face același lucru cu "dir". Putem vedea că avem o mulțime de fișiere de aici și
 
 57
 00:04:29,333 --> 00:04:35,966
-if we say "git status" git will give us a message which means it's tracking this repository
+Dacă spunem "git status"", git ne va da un mesaj care înseamnă că urmărește acest depozit
 
 58
 00:04:35,966 --> 00:04:43,399
-if we say "git remote -v" we can see that 
+dacă spunem "git remote -v", putem vedea asta
 
 59
 00:04:43,400 --> 00:04:47,433
-this project is still linked to "marianzburlea/pug-starter"
+Acest proiect este încă legat de "marianzburlea / pug-starter"
 
 60
 00:04:47,433 --> 00:04:53,633
-so we want to unlink it from there and link it to our personal project
+așa că vrem să ne deconectăm de acolo și să ne conectăm la proiectul nostru personal
 
 61
 00:04:53,633 --> 00:04:58,166
-in every project git keeps it's files in a .git folder
+În fiecare proiect git păstrează fișierele într-un dosar .git
 
 62
 00:04:58,166 --> 00:05:00,599
-so we want to remove that at the moment
+așa că vrem să îl eliminăm în acest moment
 
 63
 00:05:00,600 --> 00:05:07,666
-so on Linux and Mac we'll say "rm -rf .git"
+Așa că pe Linux și Mac vom spune "rm -rf .git"
 
 64
 00:05:07,666 --> 00:05:09,366
-which will remove the ".git folder"
+care va elimina dosarul ".git"
 
 65
 00:05:09,366 --> 00:05:16,399
-on Windows we'll say "rd /s /q .git"
+Pe Windows vom spune "rd / s / q .git"
 
 66
 00:05:16,400 --> 00:05:19,800
-which will do exactly the same. Once we've removed the .git folder
+care va face exact la fel. Odată ce am eliminat dosarul .git
 
 67
 00:05:19,800 --> 00:05:23,800

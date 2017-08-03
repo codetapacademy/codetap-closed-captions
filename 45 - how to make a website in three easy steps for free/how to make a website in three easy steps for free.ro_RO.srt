@@ -5,99 +5,100 @@ un website gratuit.
 
 2
 00:00:05,833 --> 00:00:11,866
-In this video I’ll share with you how to create a website without paying a dime
+In acest clip voi impărtăși cu voi cum poți creea un website fără sa platești nici un ban
 
 3
 00:00:11,866 --> 00:00:16,232
-That’s right, totally free. More about it, coming up!
+Exact, total gratuit. Mai multe despre asta, in momentele ce urmeaza.
 
 4
 00:00:17,800 --> 00:00:19,266
-What's up guys and girls.  
+Salut baieți și fetelor.
 
 5
 00:00:19,266 --> 00:00:22,499
-I'm Marian and my passion is to create the web
+Eu sunt Marian iar pasiunea mea este sa creez internetul
 
 6
 00:00:22,500 --> 00:00:24,933
-and help you be part of it.
+și sa te ajut pe tine sa faci parte din el.
 
 7
 00:00:24,933 --> 00:00:30,533
-If you're new over here, this is CodeTap where you'll master how to build websites,
+Dacă esți nou aici, acesta este CodeTap, locul in care vei dobandi cum să construiești website-uri 
 
 8
 00:00:30,533 --> 00:00:36,933
-how to create a website from scratch, with or without any knowledge of coding
+să construiești un website de la zero, cu sau fară cunoștințe de programare
 
 9
 00:00:36,933 --> 00:00:38,466
-so consider subscribing.
+Deci consideră să te abonezi.
 
 10
 00:00:38,466 --> 00:00:42,532
-If you appreciate me, make sure to drop a like on this video
+Dacă mă apreciezi, asigură-te ca dai like acestui video.
 
 11
 00:00:42,533 --> 00:00:45,299
- as I would really be very grateful for that.
+Ți-aș fi cu adevărat recunoscător pentru asta.
 
 12
 00:00:45,300 --> 00:00:51,633
-This setup needs NodeJS and Gulp to run properly. If you haven't got those ones
+Această configurație are nevoie de NodeJS si Gulp pentru a functiona cum trebuie. Dacă nu le ai
 
 13
 00:00:51,633 --> 00:00:54,466
-check the “required tools” playlist 
+dă clik pe lista de “instrumente necesare”
 
 14
 00:00:54,466 --> 00:00:58,699
-in the link above or in the description below and get it done.
+in link-ul de mai sus sau in descrierea de mai jos si rezolva-le.
 
 15
 00:00:58,700 --> 00:01:03,200
-Before we start with our three steps, let’s have a look 
+Înainte de a incepe cu cei trei pași, hai sa ne uitam la 
 
 16
 00:01:03,200 --> 00:01:07,700
-at our final project website that we’re about to build.
+website-ul finalizat pe care suntem pe cale sa il construim.
 
 17
 00:01:09,266 --> 00:01:15,866
-OK guys. On the left side we've got our w3schools replica
+Ok, în partea din stanga avem replica w3schools
 
 18
 00:01:15,866 --> 00:01:20,732
- and on the right side we've got w3schools.com, the real website
+iar in partea din dreapta avem w3schools.com, website-ul real 
 
 19
-00:01:20,733 --> 00:01:23,699
+00:01:20,733 --> 00:01:23,699!!!!!!!!!!!!!!!!!!!!!!
+Am creat un menui de navigare similar
 We've created a similar top navigation menu
 
 20
-00:01:23,700 --> 00:01:29,000
-the left navigation menu and the center of if which is the content.
+00:01:23,700 --> 00:01:29,000!!!!!!!!!!!!!!!!!!!!
+meniul de navigare din stânga si partea din centru unde este conținutul
 
 21
 00:01:29,000 --> 00:01:33,766
-I've changed a bit the footer as it's a more commonly used scenario
+Am modificat puțin footer-ul pentru un scenariu mai des folosit
 
 22
 00:01:33,766 --> 00:01:36,599
-which will benefit you in the long run
+ce iți v-a beneficia pe termen lung.
 
 23
 00:01:36,600 --> 00:01:42,233
-we can also navigate through this to secondary landing pages
+putem deasemena naviga de aici către paginile secundare
 
 24
 00:01:42,233 --> 00:01:46,633
-and then, one more level deep down
+iar după, un nivel mai jos
 
 25
 00:01:46,633 --> 00:01:49,199
-that's it, now let's go to our three steps.
+asta e, acum sa revenim la cei trei pași. 
 
 26
 00:01:49,200 --> 00:01:53,200

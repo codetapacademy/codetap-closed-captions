@@ -24,7 +24,7 @@ Hai să aflăm cum poți lua controlul interviului înapoi.
 
 7
 00:00:23,033 --> 00:00:26,199
-Înainte de "Sfatul #1" spune-mi de unde ești într-un comentariu mai jos?
+Înainte de ""Sfatul #1"" spune-mi de unde ești într-un comentariu mai jos?
 
 8
 00:00:26,200 --> 00:00:28,866
@@ -32,7 +32,7 @@ Hai să aflăm cum poți lua controlul interviului înapoi.
 
 9
 00:00:28,866 --> 00:00:30,632
-Sfatul #1
+"Sfatul #1"
 
 10
 00:00:30,633 --> 00:00:34,133
@@ -84,138 +84,138 @@ sau dacă ești liber să le arăți tot ce ai mai bun.
 
 22
 00:01:12,200 --> 00:01:16,566
-This will definitely raise their interest and unless there are some unknown factors
+Acest lucru le va trezi interesul si dacă nu sunt alți factori necunoscuți
 
 23
 00:01:16,566 --> 00:01:19,532
-you should get a chance for a second interview with them
+ar trebui să ai o șansă la un al doilea interviu cu ei.
 
 24
 00:01:19,533 --> 00:01:23,166
-You can approach the solution to this project as you wish
+Poți aborda soluția acestui proiect cum dorești
 
 25
 00:01:23,166 --> 00:01:28,499
-as well as to tailor a story about why you took a certain approach over another
+precum și să compui o poveste despre deciziile de a aborda o soluție în favoarea alteia
 
 26
 00:01:28,500 --> 00:01:33,566
-and how would that benefit them either in short run or in the long run
+și cum îi va avantaja pe ei pe timp scurt sau de lungă durată.
 
 27
 00:01:33,566 --> 00:01:38,032
-Now SMASH that Like button for TIP #1 cause I know you like what you hear
+Acum lovește butonul de Like pentru "Sfatul #1", știu că-ți place.
 
 28
 00:01:38,033 --> 00:01:40,033
-Tip #2
+Sfatul #2
 
 29
 00:01:40,033 --> 00:01:44,033
-Following the "learn to code like a pro", "build your online resume" and
+Vizionează listele "learn to code like a pro", "build your online resume" și
 
 30
 00:01:44,033 --> 00:01:47,233
-"build a quick blog" playlists of CodeTap
+"build a quick blog" de pe CodeTap YouTube.
 
 31
 00:01:47,233 --> 00:01:52,633
-you'll discover how to create client optimised websites
+Vei descoperi cum să creezi website-uri optimizate pentru client
 
 32
 00:01:52,633 --> 00:01:56,633
-that can achieve a perfect 
+care pot atinge scor perfect pe
 Google Page Speed Score
 
 33
 00:01:56,633 --> 00:02:01,166
-That means that your projects, your websites are 100% search engine optimised
+Acest lucru înseamnă că proiectele tale, website-urile tale sunt 100% optimizate pentru motoarele de căutare,
 
 34
 00:02:01,166 --> 00:02:03,932
-are very very SEO friendly.
+sunt foarte foarte prietenoase cu motoarele de căutare.
 
 35
 00:02:03,933 --> 00:02:07,299
-with this asset in your hand, prepare ahead of the interview
+Cu acest atu in mânecă, pregătește-te pentru interviu!
 
 36
 00:02:07,300 --> 00:02:11,733
-go grab the link of the page of the interviewer as well as
+Ia link-ul paginii companiei unde ai interviul
 
 37
 00:02:11,733 --> 00:02:15,833
-3 to 5 links of their top competitors
+3 spre 5 link-uri ale principalilor lor competitori
 
 38
 00:02:15,833 --> 00:02:20,566
-or if it's a Digital Agency, 3 to 5 links of their clients
+sau dacă este o agenție digitală, 3 spre 5 link-uri ale clienților lor
 
 39
 00:02:20,566 --> 00:02:23,566
-and get back to them with something like:
+și revino la ei cu ceva asemănător:
 
 40
 00:02:23,566 --> 00:02:26,732
-how would you like me to help you out
+Ți-ar place ca eu să te ajut
 
 41
 00:02:26,733 --> 00:02:32,266
-to optimise you web page and stand out in front of your competitors
+să-ți optimizezi website-ul și să stai în fața competitorilor
 
 42
 00:02:32,266 --> 00:02:37,499
-How would you like me to help you out so you'd be able to go to your clients
+Ți-ar place să te ajut să poți să te duci la clienții tăi
 
 43
 00:02:37,500 --> 00:02:41,800
-and propose to them to get a perfect Google Page Speed Score
+și să le propui să aibă un scor perfect pe Google Page Speed Score
 
 44
 00:02:41,800 --> 00:02:45,866
-on their website and crush their competitors on this level.
+pentru website-ul lor și să domine competitorii pe acest nivel?
 
 45
 00:02:45,866 --> 00:02:49,932
-with this said, the interview is not even over, it's in progress
+cu acestea spuse, interviul nu este încă gata,
 
 46
 00:02:49,933 --> 00:02:53,833
-and you're already providing them with possible future value.
+si tu le furnizezi deja posibilă valoare pe viitor.
 
 47
 00:02:53,833 --> 00:02:56,533
-they can see in you potential
+Vor vedea în tine potențial.
 
 48
 00:02:56,533 --> 00:02:59,399
-Now smash that LIKE button for "Tip #2"
+Acum lovește butonul de Like pentru ""Sfatul #2""
 
 49
 00:02:59,400 --> 00:03:05,266
-Those two tips helped me as well as some of my students and friends and colleagues 
+Aceste două sfaturi m-au ajutat pe mine, elevii mei și colegii mei
 
 50
 00:03:05,266 --> 00:03:10,266
-to get their dream job or at least have a higher chance in the interview process
+să obținem slujba mult dorită sau să ne mărim șansa în interviu.
 
 51
 00:03:10,266 --> 00:03:12,299
-If you're new over here this is CodeTap
+Dacă ești nou acesta este CodeTap
 
 52
 00:03:12,300 --> 00:03:15,833
-where you'll master how to create websites and get paid well
+unde vei deveni meșter de website-uri ca să fii platit bine.
 
 53
 00:03:15,833 --> 00:03:20,399
-so smash that Subscribe Button Now and smash that like button as well.
+așa că lovește Subscribe Button acum pentru a te abona și lovește și butonul de LIKE de asemeni.
 
 54
 00:03:20,400 --> 00:03:25,600
-Thank you, thank you, thank you, thank you for so much smashing, I like your smashing
+Îți mulțuuuuuuuuuuuuuuuuuuuuuuuuumesc pentru toate loviturile de butoane de LIKE, îmi place când le lovesti
 
 55
 00:03:25,600 --> 00:03:29,300
-And as always: Happy Coding and Create something awesome!
+și cum spun eu mereu: spor în coduri și crează ceva minunat!
 

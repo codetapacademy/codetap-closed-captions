@@ -1,0 +1,221 @@
+﻿1
+00:00:00,000 --> 00:00:02,600
+How to avoid interview rejections?
+
+2
+00:00:02,600 --> 00:00:06,033
+Two killer tips for web developers and coders
+
+3
+00:00:08,066 --> 00:00:10,999
+Do you often go to interviews and feel a bit overwhelmed?
+
+4
+00:00:11,000 --> 00:00:14,000
+Do you get questions that are hard to answer or you don't know how to?
+
+5
+00:00:14,000 --> 00:00:17,400
+Are you showing them some skills while they are expecting something else?
+
+6
+00:00:17,400 --> 00:00:21,000
+Let's find out how you can gain back control of the interview.
+
+7
+00:00:23,033 --> 00:00:26,199
+Before "Tip #1" let me know where are you from?
+
+8
+00:00:26,200 --> 00:00:28,866
+And what time is it you're watching this movie?
+
+9
+00:00:28,866 --> 00:00:30,632
+Now TIP #1
+
+10
+00:00:30,633 --> 00:00:34,133
+You should start by reminding them that the nature of the interview
+
+11
+00:00:34,133 --> 00:00:35,799
+is to get to know each other better
+
+12
+00:00:35,800 --> 00:00:40,433
+And that this process is limited by time which is the length of the interview
+
+13
+00:00:40,433 --> 00:00:42,933
+You should end this statement with something like:
+
+14
+00:00:42,933 --> 00:00:44,633
+I think we can all agree with this 
+
+15
+00:00:44,633 --> 00:00:48,699
+cause this is why second and follow up interviews are meant for
+
+16
+00:00:48,700 --> 00:00:54,033
+This will set a positive mood and will open them up for your next question
+
+17
+00:00:54,033 --> 00:00:58,033
+Follow this up by asking them for a POC, that's a "proof of concept"
+
+18
+00:00:58,033 --> 00:01:03,333
+it's a small project that you can work on and deliver it before they make their final decision
+
+19
+00:01:03,333 --> 00:01:06,566
+So ask what would they like to see you building for them?
+
+20
+00:01:06,566 --> 00:01:09,999
+If they like a particular technology to be used ...
+
+21
+00:01:10,000 --> 00:01:12,200
+or if you're free to show your best
+
+22
+00:01:12,200 --> 00:01:16,566
+This will definitely raise their interest and unless there are some unknown factors
+
+23
+00:01:16,566 --> 00:01:19,532
+you should get a chance for a second interview with them
+
+24
+00:01:19,533 --> 00:01:23,166
+You can approach the solution to this project as you wish
+
+25
+00:01:23,166 --> 00:01:28,499
+as well as to tailor a story about why you took a certain approach over another
+
+26
+00:01:28,500 --> 00:01:33,566
+and how would that benefit them either in short run or in the long run
+
+27
+00:01:33,566 --> 00:01:38,032
+Now SMASH that Like button for TIP #1 cause I know you like what you hear
+
+28
+00:01:38,033 --> 00:01:40,033
+Tip #2
+
+29
+00:01:40,033 --> 00:01:44,033
+Following the "learn to code like a pro", "build your online resume" and
+
+30
+00:01:44,033 --> 00:01:47,233
+"build a quick blog" playlists of CodeTap
+
+31
+00:01:47,233 --> 00:01:52,633
+you'll discover how to create client optimised websites
+
+32
+00:01:52,633 --> 00:01:56,633
+that can achieve a perfect 
+Google Page Speed Score
+
+33
+00:01:56,633 --> 00:02:01,166
+That means that your projects, your websites are 100% search engine optimised
+
+34
+00:02:01,166 --> 00:02:03,932
+are very very SEO friendly.
+
+35
+00:02:03,933 --> 00:02:07,299
+with this asset in your hand, prepare ahead of the interview
+
+36
+00:02:07,300 --> 00:02:11,733
+go grab the link of the page of the interviewer as well as
+
+37
+00:02:11,733 --> 00:02:15,833
+3 to 5 links of their top competitors
+
+38
+00:02:15,833 --> 00:02:20,566
+or if it's a Digital Agency, 3 to 5 links of their clients
+
+39
+00:02:20,566 --> 00:02:23,566
+and get back to them with something like:
+
+40
+00:02:23,566 --> 00:02:26,732
+how would you like me to help you out
+
+41
+00:02:26,733 --> 00:02:32,266
+to optimise you web page and stand out in front of your competitors
+
+42
+00:02:32,266 --> 00:02:37,499
+How would you like me to help you out so you'd be able to go to your clients
+
+43
+00:02:37,500 --> 00:02:41,800
+and propose to them to get a perfect Google Page Speed Score
+
+44
+00:02:41,800 --> 00:02:45,866
+on their website and crush their competitors on this level.
+
+45
+00:02:45,866 --> 00:02:49,932
+with this said, the interview is not even over, it's in progress
+
+46
+00:02:49,933 --> 00:02:53,833
+and you're already providing them with possible future value.
+
+47
+00:02:53,833 --> 00:02:56,533
+they can see in you potential
+
+48
+00:02:56,533 --> 00:02:59,399
+Now smash that LIKE button for "Tip #2"
+
+49
+00:02:59,400 --> 00:03:05,266
+Those two tips helped me as well as some of my students and friends and colleagues 
+
+50
+00:03:05,266 --> 00:03:10,266
+to get their dream job or at least have a higher chance in the interview process
+
+51
+00:03:10,266 --> 00:03:12,299
+If you're new over here this is CodeTap
+
+52
+00:03:12,300 --> 00:03:15,833
+where you'll master how to create websites and get paid well
+
+53
+00:03:15,833 --> 00:03:20,399
+so smash that Subscribe Button Now and smash that like button as well.
+
+54
+00:03:20,400 --> 00:03:25,600
+Thank you, thank you, thank you, thank you for so much smashing, I like your smashing
+
+55
+00:03:25,600 --> 00:03:29,300
+And as always: Happy Coding and Create something awesome!
+

@@ -1,0 +1,89 @@
+﻿1
+00:00:00,033 --> 00:00:01,099
+5 tips
+
+2
+00:00:01,100 --> 00:00:05,100
+on how to become a web developer coming up
+
+3
+00:00:05,100 --> 00:00:05,933
+Tip #1
+
+4
+00:00:05,933 --> 00:00:08,099
+Volunteering or interning.
+
+5
+00:00:08,100 --> 00:00:10,633
+This is the quickest way to get hired
+
+6
+00:00:10,633 --> 00:00:12,933
+or freelance as a web developer.
+
+7
+00:00:12,933 --> 00:00:14,599
+So your question might be:
+
+8
+00:00:14,600 --> 00:00:18,500
+Hey, is there someone in the local area that needs their website done?
+
+9
+00:00:18,500 --> 00:00:19,766
+Tip #2
+
+10
+00:00:19,766 --> 00:00:23,132
+Say yes to every website, including unpaid ones.
+
+11
+00:00:23,133 --> 00:00:24,599
+Tip #3
+
+12
+00:00:24,600 --> 00:00:26,100
+Build your portfolio.
+
+13
+00:00:26,100 --> 00:00:27,300
+Tip #4
+
+14
+00:00:27,300 --> 00:00:28,566
+Find a mentor 
+
+15
+00:00:28,566 --> 00:00:35,199
+90% of the time spent as a beginner is looking at errors and doing things the wrong way.
+
+16
+00:00:35,200 --> 00:00:38,033
+Finding a mentor is a game changer.
+
+17
+00:00:38,033 --> 00:00:42,833
+A mentor will guide you on the right path if you go too far sideways.
+
+18
+00:00:42,833 --> 00:00:45,266
+If you’re new over here this is CodeTap
+
+19
+00:00:45,266 --> 00:00:49,566
+where you’ll discover how to build websites and 
+get paid well.
+
+20
+00:00:49,566 --> 00:00:52,466
+To watch the full episode of this video 
+
+21
+00:00:52,466 --> 00:00:55,632
+ visit the link in the bottom part of this video,
+
+22
+00:00:55,633 --> 00:01:00,066
+type it in the address bar of your browser and hit enter.
+

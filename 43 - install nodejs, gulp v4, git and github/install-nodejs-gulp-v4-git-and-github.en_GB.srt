@@ -4,7 +4,7 @@ Setup NodeJS, Gulp, Git and GitHub.
 
 2
 00:00:05,333 --> 00:00:10,199
-Today, we'll install these tools to help us develop quicker
+Today, we'll install these tools to help us develop quicker.
 
 3
 00:00:10,200 --> 00:00:12,333

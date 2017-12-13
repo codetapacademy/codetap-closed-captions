@@ -1,0 +1,221 @@
+﻿1
+00:00:00,000 --> 00:00:02,600
+Cum să eviți să fii respins la interiviu?
+
+2
+00:00:02,600 --> 00:00:06,033
+Două sfaturi criminale pentru dezvoltatori web sau programatori.
+
+3
+00:00:08,066 --> 00:00:10,999
+Te duci des la interviuri și te simți depăsit?
+
+4
+00:00:11,000 --> 00:00:14,000
+Ți se pun întrebări greu de răspuns sau pentru care nu le știi răspunsul?
+
+5
+00:00:14,000 --> 00:00:17,400
+Le arăți că știi ceva în timp ce ei se așteaptă la altceva?
+
+6
+00:00:17,400 --> 00:00:21,000
+Hai să aflăm cum poți lua controlul interviului înapoi.
+
+7
+00:00:23,033 --> 00:00:26,199
+Înainte de ""Sfatul #1"" spune-mi de unde ești într-un comentariu mai jos?
+
+8
+00:00:26,200 --> 00:00:28,866
+și cât este ora acum?
+
+9
+00:00:28,866 --> 00:00:30,632
+"Sfatul #1"
+
+10
+00:00:30,633 --> 00:00:34,133
+Ar trebui să începi prin a le aduce aminte că natura interviului este
+
+11
+00:00:34,133 --> 00:00:35,799
+de a vă cunoaște mai bine.
+
+12
+00:00:35,800 --> 00:00:40,433
+iar acest proces este limitat de timpul alocat interviului.
+
+13
+00:00:40,433 --> 00:00:42,933
+Ar trebui să închizi afirmația cu:
+
+14
+00:00:42,933 --> 00:00:44,633
+Cred că toți suntem de acord cu asta
+
+15
+00:00:44,633 --> 00:00:48,699
+altfel nu ar mai exista interviuri secundare.
+
+16
+00:00:48,700 --> 00:00:54,033
+Acest lucru va înmuia atmosfera și îi va deschide pentru urmatoarea întrebare
+
+17
+00:00:54,033 --> 00:00:58,033
+Urmează prin a le cere să faci o concept dovadă.
+
+18
+00:00:58,033 --> 00:01:03,333
+un proiect mic prin care să le dovedești de ce ești în stare înainte să ia o decizie.
+
+19
+00:01:03,333 --> 00:01:06,566
+Așa ca întreabă ce ar dori să te vadă lucrând pentru ei?
+
+20
+00:01:06,566 --> 00:01:09,999
+Dacă au vreo preferință pentru o anumită tehnologie ...
+
+21
+00:01:10,000 --> 00:01:12,200
+sau dacă ești liber să le arăți tot ce ai mai bun.
+
+22
+00:01:12,200 --> 00:01:16,566
+Acest lucru le va trezi interesul si dacă nu sunt alți factori necunoscuți
+
+23
+00:01:16,566 --> 00:01:19,532
+ar trebui să ai o șansă la un al doilea interviu cu ei.
+
+24
+00:01:19,533 --> 00:01:23,166
+Poți aborda soluția acestui proiect cum dorești
+
+25
+00:01:23,166 --> 00:01:28,499
+precum și să compui o poveste despre deciziile de a aborda o soluție în favoarea alteia
+
+26
+00:01:28,500 --> 00:01:33,566
+și cum îi va avantaja pe ei pe timp scurt sau de lungă durată.
+
+27
+00:01:33,566 --> 00:01:38,032
+Acum lovește butonul de Like pentru "Sfatul #1", știu că-ți place.
+
+28
+00:01:38,033 --> 00:01:40,033
+Sfatul #2
+
+29
+00:01:40,033 --> 00:01:44,033
+Vizionează listele "learn to code like a pro", "build your online resume" și
+
+30
+00:01:44,033 --> 00:01:47,233
+"build a quick blog" de pe CodeTap YouTube.
+
+31
+00:01:47,233 --> 00:01:52,633
+Vei descoperi cum să creezi website-uri optimizate pentru client
+
+32
+00:01:52,633 --> 00:01:56,633
+care pot atinge scor perfect pe
+Google Page Speed Score
+
+33
+00:01:56,633 --> 00:02:01,166
+Acest lucru înseamnă că proiectele tale, website-urile tale sunt 100% optimizate pentru motoarele de căutare,
+
+34
+00:02:01,166 --> 00:02:03,932
+sunt foarte foarte prietenoase cu motoarele de căutare.
+
+35
+00:02:03,933 --> 00:02:07,299
+Cu acest atu in mânecă, pregătește-te pentru interviu!
+
+36
+00:02:07,300 --> 00:02:11,733
+Ia link-ul paginii companiei unde ai interviul
+
+37
+00:02:11,733 --> 00:02:15,833
+3 spre 5 link-uri ale principalilor lor competitori
+
+38
+00:02:15,833 --> 00:02:20,566
+sau dacă este o agenție digitală, 3 spre 5 link-uri ale clienților lor
+
+39
+00:02:20,566 --> 00:02:23,566
+și revino la ei cu ceva asemănător:
+
+40
+00:02:23,566 --> 00:02:26,732
+Ți-ar place ca eu să te ajut
+
+41
+00:02:26,733 --> 00:02:32,266
+să-ți optimizezi website-ul și să stai în fața competitorilor
+
+42
+00:02:32,266 --> 00:02:37,499
+Ți-ar place să te ajut să poți să te duci la clienții tăi
+
+43
+00:02:37,500 --> 00:02:41,800
+și să le propui să aibă un scor perfect pe Google Page Speed Score
+
+44
+00:02:41,800 --> 00:02:45,866
+pentru website-ul lor și să domine competitorii pe acest nivel?
+
+45
+00:02:45,866 --> 00:02:49,932
+cu acestea spuse, interviul nu este încă gata,
+
+46
+00:02:49,933 --> 00:02:53,833
+si tu le furnizezi deja posibilă valoare pe viitor.
+
+47
+00:02:53,833 --> 00:02:56,533
+Vor vedea în tine potențial.
+
+48
+00:02:56,533 --> 00:02:59,399
+Acum lovește butonul de Like pentru ""Sfatul #2""
+
+49
+00:02:59,400 --> 00:03:05,266
+Aceste două sfaturi m-au ajutat pe mine, elevii mei și colegii mei
+
+50
+00:03:05,266 --> 00:03:10,266
+să obținem slujba mult dorită sau să ne mărim șansa în interviu.
+
+51
+00:03:10,266 --> 00:03:12,299
+Dacă ești nou acesta este CodeTap
+
+52
+00:03:12,300 --> 00:03:15,833
+unde vei deveni meșter de website-uri ca să fii platit bine.
+
+53
+00:03:15,833 --> 00:03:20,399
+așa că lovește Subscribe Button acum pentru a te abona și lovește și butonul de LIKE de asemeni.
+
+54
+00:03:20,400 --> 00:03:25,600
+Îți mulțuuuuuuuuuuuuuuuuuuuuuuuuumesc pentru toate loviturile de butoane de LIKE, îmi place când le lovesti
+
+55
+00:03:25,600 --> 00:03:29,300
+și cum spun eu mereu: spor în coduri și crează ceva minunat!
+

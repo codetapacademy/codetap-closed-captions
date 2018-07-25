@@ -1,0 +1,299 @@
+﻿1
+00:00:00,000 --> 00:00:02,516
+So how do you save time writing html
+
+2
+00:00:02,516 --> 00:00:04,166
+how do you become more efficient, 
+
+3
+00:00:04,166 --> 00:00:05,716
+how do you deliver a project 
+
+4
+00:00:05,716 --> 00:00:08,333
+that maybe takes 5 days in just 2 days,
+
+5
+00:00:08,333 --> 00:00:10,950
+well let's talk about that
+
+6
+00:00:13,500 --> 00:00:16,033
+Well, to improve your efficiency in writing HTML
+
+7
+00:00:16,033 --> 00:00:18,666
+usually you have to use a template engine 
+
+8
+00:00:18,666 --> 00:00:20,400
+and if you quickly Google 
+
+9
+00:00:20,400 --> 00:00:22,250
+we can find that there is a big list 
+
+10
+00:00:22,250 --> 00:00:23,466
+and among them there are like: 
+
+11
+00:00:23,466 --> 00:00:27,983
+pug, ejs, handlebars, nunjucks, and so many others. 
+
+12
+00:00:27,983 --> 00:00:30,350
+So I'll give her a handful of reasons or more 
+
+13
+00:00:30,350 --> 00:00:32,733
+on why you should use a template engine
+
+14
+00:00:32,733 --> 00:00:34,733
+and make sure to stay till the end 
+
+15
+00:00:34,750 --> 00:00:36,566
+as there'll be a bonus!
+
+16
+00:00:36,566 --> 00:00:39,366
+So let's start with: number one 
+
+17
+00:00:39,366 --> 00:00:45,300
+Separation. You can have the data or the model in one side 
+
+18
+00:00:45,300 --> 00:00:49,416
+and then the view or the presentation on another side.
+
+19
+00:00:49,416 --> 00:00:51,333
+Number two is: structure 
+
+20
+00:00:51,333 --> 00:00:53,416
+You can structure your code into components
+
+21
+00:00:53,416 --> 00:00:55,983
+which will hold a basic functionality 
+
+22
+00:00:55,983 --> 00:00:57,733
+with everything that is related to it: 
+
+23
+00:00:57,733 --> 00:01:01,050
+HTML, CSS, images, JavaScript, tests 
+
+24
+00:01:01,050 --> 00:01:02,150
+and so many more.
+
+25
+00:01:02,150 --> 00:01:04,516
+Number three is readable.
+
+26
+00:01:04,516 --> 00:01:05,800
+If you look at this code 
+
+27
+00:01:05,800 --> 00:01:08,950
+especially the PUG template engine for HTML
+
+28
+00:01:08,950 --> 00:01:12,150
+it's TAB based just like "Python" 
+
+29
+00:01:12,150 --> 00:01:13,733
+and it's easy to read. 
+
+30
+00:01:13,733 --> 00:01:15,200
+As soon as you look at it 
+
+31
+00:01:15,200 --> 00:01:16,900
+you'll understand its structure,
+
+32
+00:01:16,900 --> 00:01:19,616
+who's the parent, who's the child 
+
+33
+00:01:19,616 --> 00:01:22,100
+and what attributes are used inside.
+
+34
+00:01:22,100 --> 00:01:24,250
+Number four: collaboration
+
+35
+00:01:24,250 --> 00:01:26,183
+If the code has a good structure,
+
+36
+00:01:26,183 --> 00:01:28,966
+colaboration will come quite easily.
+
+37
+00:01:28,966 --> 00:01:30,650
+So if your project scales up
+
+38
+00:01:30,650 --> 00:01:32,666
+and new joiners will come
+
+39
+00:01:32,666 --> 00:01:34,483
+it'll be very easy for them 
+
+40
+00:01:34,483 --> 00:01:35,900
+to just look at the code,
+
+41
+00:01:35,900 --> 00:01:37,883
+pick it up and start developing.
+
+42
+00:01:37,883 --> 00:01:41,133
+Number five: most template engines 
+
+43
+00:01:41,133 --> 00:01:42,883
+are quite easy to learn.
+
+44
+00:01:42,883 --> 00:01:44,000
+You should spend no more
+
+45
+00:01:44,000 --> 00:01:45,000
+than a couple of hours
+
+46
+00:01:45,000 --> 00:01:46,700
+and sometimes up to a day 
+
+47
+00:01:46,700 --> 00:01:48,483
+but that would be all and
+
+48
+00:01:48,483 --> 00:01:49,650
+you'll quickly learn 
+
+49
+00:01:49,650 --> 00:01:52,250
+a template engine that will:
+
+50
+00:01:52,250 --> 00:01:53,350
+SAVE TIME
+
+51
+00:01:53,350 --> 00:01:55,883
+And this is my favorite feature
+
+52
+00:01:55,883 --> 00:01:57,483
+cause I always prefer
+
+53
+00:01:57,483 --> 00:01:58,750
+to spend the extra time
+
+54
+00:01:58,750 --> 00:02:00,000
+with my family, friends
+
+55
+00:02:00,000 --> 00:02:01,000
+or actually doing some research
+
+56
+00:02:01,000 --> 00:02:02,950
+or other cool projects
+
+57
+00:02:02,950 --> 00:02:04,400
+than repeating myself
+
+58
+00:02:04,400 --> 00:02:06,450
+or doing something inefficiently.
+
+59
+00:02:06,450 --> 00:02:08,683
+So with a template engine that's
+
+60
+00:02:08,683 --> 00:02:10,300
+well structured, easy to read
+
+61
+00:02:10,300 --> 00:02:12,333
+people can collaborate and so on
+
+62
+00:02:12,333 --> 00:02:14,816
+you can definitely save time which will make
+
+63
+00:02:14,816 --> 00:02:16,983
+most of the time your clients happy
+
+64
+00:02:16,983 --> 00:02:20,083
+and of course you can put time to better use
+
+65
+00:02:20,083 --> 00:02:22,900
+So guys I gave you a hand full of reasons or more
+
+66
+00:02:22,900 --> 00:02:25,683
+on why you should use a template engine
+
+67
+00:02:25,683 --> 00:02:27,383
+for writing HTML
+
+68
+00:02:27,383 --> 00:02:29,166
+So we've got to the bonus and
+
+69
+00:02:29,166 --> 00:02:32,066
+I'm quite excited to let you know
+
+70
+00:02:32,066 --> 00:02:35,166
+that this video marks the beginning of a series
+
+71
+00:02:35,166 --> 00:02:38,633
+of a step by step, from scratch tutorials,
+
+72
+00:02:38,633 --> 00:02:41,700
+in depth about how to use a template engine
+
+73
+00:02:41,700 --> 00:02:45,100
+we'll be diving into PUG, former Jade,
+
+74
+00:02:45,100 --> 00:02:48,433
+and we'll be doing some real world examples
+
+75
+00:02:48,433 --> 00:02:51,033
+on how to use that, so stay tuned.

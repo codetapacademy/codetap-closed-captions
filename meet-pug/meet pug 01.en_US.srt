@@ -1,0 +1,589 @@
+﻿1
+00:00:00,000 --> 00:00:04,100
+So what is a template engine, for HTML or anything else?
+
+2
+00:00:04,100 --> 00:00:10,316
+Well, let's meet PUG, which is one of the best template engines for HTML out there.
+
+3
+00:00:12,416 --> 00:00:14,716
+I'll press the "Start" key and R
+
+4
+00:00:14,716 --> 00:00:17,350
+and it'll open this command, you can just press:
+
+5
+00:00:17,383 --> 00:00:22,150
+the "Start" key and then type "cmd" and press "Enter"
+
+6
+00:00:22,150 --> 00:00:25,033
+and it'll open a command line.
+
+7
+00:00:25,033 --> 00:00:27,966
+so I'll keep those ones close as 
+
+8
+00:00:27,966 --> 00:00:33,100
+I have multiple partitions and I want to change into the D partition
+
+9
+00:00:33,100 --> 00:00:35,450
+You don't have to do this if you have only one. 
+
+10
+00:00:35,450 --> 00:00:39,966
+I  keep all my stuff in the "cool-stuff" folder
+
+11
+00:00:39,966 --> 00:00:43,416
+So you've noticed that I've double clicked the "cool-stuff"
+
+12
+00:00:43,416 --> 00:00:45,966
+In order to change on the D partition
+
+13
+00:00:45,966 --> 00:00:49,583
+and then go into "cool-stuff" I'll say
+
+14
+00:00:49,583 --> 00:00:53,150
+change directory "cool stuff"
+cd cool-stuff
+
+15
+00:00:53,150 --> 00:00:56,016
+so we are in the same place, if you look over here:
+
+16
+00:00:56,016 --> 00:00:57,900
+d:\cool-stuff and d:\cool-stuff
+
+17
+00:00:57,900 --> 00:01:00,783
+which means: this part over here
+
+18
+00:01:00,783 --> 00:01:03,533
+is the same as this part over here
+
+19
+00:01:03,533 --> 00:01:05,950
+those two are one and the same
+
+20
+00:01:07,083 --> 00:01:08,850
+and now let's continue
+
+21
+00:01:09,366 --> 00:01:13,283
+in here I'll say: "mkdir" which is make directory
+
+22
+00:01:13,283 --> 00:01:16,650
+awesome-stuff
+
+23
+00:01:16,650 --> 00:01:19,566
+so you notice that "awesome-stuff" has been created
+
+24
+00:01:19,566 --> 00:01:22,566
+I'll change into it: 
+cd awesome-stuff
+
+25
+00:01:22,566 --> 00:01:25,666
+which is the same as double clicking  on it 
+
+26
+00:01:25,666 --> 00:01:27,483
+and in here I'll create another one
+
+27
+00:01:27,483 --> 00:01:33,183
+mkdir meet-pug
+
+28
+00:01:33,183 --> 00:01:35,783
+and change into it as well
+
+29
+00:01:35,783 --> 00:01:39,083
+cd meet-pug
+
+30
+00:01:39,083 --> 00:01:44,016
+so in here I want to start creating some files
+
+31
+00:01:44,016 --> 00:01:48,166
+I'll quickly open visual studio code by staying
+
+32
+00:01:48,183 --> 00:01:50,916
+code and space .
+
+33
+00:01:53,750 --> 00:01:58,483
+and now Visual Studio Code will be opened with the "meet-pug" directory
+
+34
+00:02:01,233 --> 00:02:03,250
+and over here
+
+35
+00:02:04,433 --> 00:02:06,500
+I will close this for a second
+
+36
+00:02:07,683 --> 00:02:09,433
+I'll also close this one
+
+37
+00:02:09,716 --> 00:02:13,533
+Actually I'll make it just smaller for you to see what happens
+
+38
+00:02:14,150 --> 00:02:20,000
+And I'll press CTRL + ' on Windows to open the console
+
+39
+00:02:20,600 --> 00:02:22,916
+Which is the same as this console, 
+
+40
+00:02:22,916 --> 00:02:26,383
+but now we have it in Visual Studio Code so we can close this one
+
+41
+00:02:26,383 --> 00:02:29,650
+So now, let's see! Do we have PUG?
+
+42
+00:02:29,650 --> 00:02:33,150
+Well, pug command not found, which means we don't have it.
+
+43
+00:02:33,150 --> 00:02:37,283
+I'll say: npm install -g which is global
+
+44
+00:02:37,283 --> 00:02:39,733
+pug-cli
+
+45
+00:02:40,566 --> 00:02:43,850
+you need to have NodeJS insalled
+
+46
+00:02:43,850 --> 00:02:46,216
+to be able to run "npm"
+
+47
+00:02:46,216 --> 00:02:52,200
+to install pug-cli globally to be available for all projects
+
+48
+00:02:54,283 --> 00:02:57,483
+now let's test if PUG is recognized
+
+49
+00:02:59,066 --> 00:03:02,750
+something happened or something doesn't happen
+
+50
+00:03:02,750 --> 00:03:08,683
+which means it's no longer not recognized, it is recognized
+
+51
+00:03:08,950 --> 00:03:12,316
+so let's see now, I'll create a new file here
+
+52
+00:03:13,916 --> 00:03:18,450
+named index.pug 
+
+53
+00:03:18,833 --> 00:03:22,683
+and in here I'll type: h1 hello
+
+54
+00:03:24,283 --> 00:03:27,233
+OK. So if I save it you can see that
+
+55
+00:03:27,233 --> 00:03:30,266
+there is a new file here and this is the content of it
+
+56
+00:03:30,266 --> 00:03:34,416
+now let's try: pug index.pug
+
+57
+00:03:35,883 --> 00:03:40,200
+so now, out of pug, index.pug
+
+58
+00:03:40,400 --> 00:03:45,983
+PUG converted it into a HTML file and give me a moment
+
+59
+00:03:46,633 --> 00:03:50,366
+So you can earily see now that
+
+60
+00:03:53,450 --> 00:03:59,500
+this one, h1,  has been converted into this one over here
+
+61
+00:03:59,933 --> 00:04:03,800
+so now I'll do something else, instead of always run ....
+
+62
+00:04:03,800 --> 00:04:09,900
+cause if I type this, it's not reflected in here, so I need to run again: pug index.pug
+
+63
+00:04:10,450 --> 00:04:15,116
+so in order not to be needed to run always this
+
+64
+00:04:15,116 --> 00:04:21,100
+I want to say: pug index.pug -w
+
+65
+00:04:21,100 --> 00:04:23,850
+which is watch, in watch mode
+
+66
+00:04:24,566 --> 00:04:27,400
+which means now it's watching index.pug
+
+67
+00:04:27,400 --> 00:04:29,950
+and if I make more changes and save it
+
+68
+00:04:30,500 --> 00:04:34,633
+you can see that those changes are reflected in here. Now you can easily
+
+69
+00:04:35,950 --> 00:04:40,133
+close this window over here, the "windows exploer", make this one bigger
+
+70
+00:04:40,133 --> 00:04:43,216
+and also close this one, cause I know it's watching
+
+71
+00:04:43,216 --> 00:04:48,150
+so whatever I do here, as soon as I save it it'll be reflected in here
+
+72
+00:04:48,150 --> 00:04:50,183
+so now about that template engine
+
+73
+00:04:50,183 --> 00:04:54,716
+In PUG in order to type some JavaScript you can do
+
+74
+00:04:54,716 --> 00:04:58,100
+minus, and then inside that minus, as
+
+75
+00:04:59,450 --> 00:05:03,850
+I press a TAB and then I say var, or let or const, whatever
+
+76
+00:05:03,850 --> 00:05:07,183
+So let's do "var" cause most people are used to this
+
+77
+00:05:07,183 --> 00:05:12,716
+and I"ll create a list, like people, peopleList
+
+78
+00:05:12,716 --> 00:05:18,533
+and in order to be a list I'll create an empty array and I'll start populating it with objects
+
+79
+00:05:18,533 --> 00:05:23,933
+and people have a name so I'll say: name Marian
+
+80
+00:05:23,933 --> 00:05:29,483
+and age 36
+
+81
+00:05:29,483 --> 00:05:34,750
+I'll do a comma here and I'll select those lines
+
+82
+00:05:34,750 --> 00:05:40,433
+I'm going exactly at the beginning of line 3 and using SHIFT and Down Arrow
+
+83
+00:05:40,433 --> 00:05:43,666
+I select those ones, those lines and then
+
+84
+00:05:43,666 --> 00:05:49,316
+with ALT + SHIFT pressed I press Down Arrow to duplicate it a few times
+
+85
+00:05:49,316 --> 00:05:54,450
+and now we've got more of them, that's the first one
+
+86
+00:05:54,450 --> 00:06:03,033
+Let's do Grace. It's easier for you to understand it in English, Gratiela is my wife
+
+87
+00:06:03,050 --> 00:06:10,566
+And now Grace is 31, and we've got Razvan. Razvan, how old are you?
+
+88
+00:06:10,583 --> 00:06:13,083
+25. Twenty five
+
+89
+00:06:13,083 --> 00:06:17,516
+And we also got Maya, my daughter, which is four
+
+90
+00:06:17,516 --> 00:06:21,266
+And now you'll get to understand quite quickly
+
+91
+00:06:21,266 --> 00:06:24,766
+what a template engine is
+
+92
+00:06:24,766 --> 00:06:28,483
+so if I want to output all those names
+
+93
+00:06:28,483 --> 00:06:34,083
+into HTML, usually I'd do something like, maybe: table
+
+94
+00:06:34,083 --> 00:06:39,650
+and then, OK, let's do some HTML
+
+95
+00:06:39,666 --> 00:06:45,416
+table, /table
+
+96
+00:06:45,416 --> 00:06:49,633
+let's see, if I save it ... yeah, it's there, OK ...
+
+97
+00:06:50,733 --> 00:06:55,233
+so then I'll do a "tr" table row
+
+98
+00:06:55,233 --> 00:07:02,033
+and another tr with close
+
+99
+00:07:02,033 --> 00:07:11,850
+td, and then another, Marian, slash td
+
+100
+00:07:11,850 --> 00:07:16,950
+Let's duplicate. This one will be 36.
+
+101
+00:07:18,800 --> 00:07:27,466
+I want to go through the trouble of actually doing this so you'll see in a second, the benefits of it
+
+102
+00:07:30,883 --> 00:07:33,916
+so I'll do this as a tbody
+
+103
+00:07:34,950 --> 00:07:38,466
+and this as a thead, a tbody again, sorry
+
+104
+00:07:38,466 --> 00:07:44,433
+closing the tbody tag and duplicating this as ... like that
+
+105
+00:07:45,016 --> 00:07:49,233
+and then this is thead
+
+106
+00:07:49,866 --> 00:07:55,083
+and Name and age, OK.
+
+107
+00:07:55,583 --> 00:07:57,966
+so far if I am to ... 
+
+108
+00:07:57,966 --> 00:08:04,300
+actually let's see if there is an "open with explorer", yeah, reveal in explorer ... if I am to open this page
+
+109
+00:08:06,883 --> 00:08:12,216
+let me drag it here ... you can see there is a table
+
+110
+00:08:15,466 --> 00:08:19,800
+border equals one
+
+111
+00:08:23,233 --> 00:08:26,833
+so this is the table and ...
+
+112
+00:08:26,833 --> 00:08:34,133
+in order to add more name I'll just have to ... do more of this, multiple times, and then
+
+113
+00:08:34,816 --> 00:08:40,000
+It'll look like this but with the proper names.
+
+114
+00:08:40,533 --> 00:08:43,050
+this is what I would have to do in HTML
+
+115
+00:08:43,050 --> 00:08:45,300
+now lets' do it in PUG
+
+116
+00:08:47,683 --> 00:08:50,066
+So in PUG I would say
+
+117
+00:08:51,600 --> 00:08:56,716
+table, and than I would say: tbody
+
+118
+00:08:56,716 --> 00:09:02,350
+see, I'm no longer closing the tags, I'm just using TAB to indent and 
+
+119
+00:09:02,350 --> 00:09:10,900
+then: tr, td Name and td, age
+
+120
+00:09:10,900 --> 00:09:17,600
+and then at the same level as tbody ... well, this is tbody actually
+
+121
+00:09:17,600 --> 00:09:35,116
+and this is thead ... over here, I'll do td, again td, Marian and age, 36
+
+122
+00:09:35,116 --> 00:09:43,850
+so what this does is: it creates this HTML automatically for us
+
+123
+00:09:44,600 --> 00:09:47,200
+ALT + Z
+
+124
+00:09:47,850 --> 00:09:52,400
+however, if I have this list over here, peopleList
+
+125
+00:09:52,400 --> 00:09:56,650
+I can iterate it and I can use either "each" or "for" to do that.
+
+126
+00:09:56,650 --> 00:10:05,816
+so each people ... people in peopleList
+
+127
+00:10:05,816 --> 00:10:14,550
+This is the same as using "for". Yeah, I'll comment it but, if you use for or each, it's the same thing.
+
+128
+00:10:14,550 --> 00:10:20,650
+each peole in peopleList ... and now I'll indent this to be under that each
+
+129
+00:10:21,350 --> 00:10:26,916
+and I'll say: people is this object, each time it iterates
+
+130
+00:10:26,916 --> 00:10:30,333
+it's this object, and this object, and this object and so on
+
+131
+00:10:30,333 --> 00:10:32,750
+and each object has a name and an age
+
+132
+00:10:33,050 --> 00:10:40,866
+so in here I would say: = people.name
+
+133
+00:10:40,866 --> 00:10:45,616
+and in here I'd say people.age
+
+134
+00:10:45,616 --> 00:10:53,533
+So right now, this is the template part, this here, this is the template part
+
+135
+00:10:53,533 --> 00:10:58,200
+or the view part where we present whatever we want
+
+136
+00:10:58,200 --> 00:11:00,666
+and this is the model or the data part
+
+137
+00:11:00,716 --> 00:11:10,000
+and no matter how many other ... let's say: people we have in that list
+
+138
+00:11:10,000 --> 00:11:18,850
+we always run just one time the repeating part and then PUG generates automatically for us all this.
+
+139
+00:11:18,850 --> 00:11:21,416
+So if we are to refresh this we'll see
+
+140
+00:11:21,416 --> 00:11:25,100
+that this code has been generated for us, let's inspect it
+
+141
+00:11:25,100 --> 00:11:30,116
+actually not inspect, let's do "view source", where is view source?
+
+142
+00:11:30,116 --> 00:11:32,016
+View page source
+
+143
+00:11:34,233 --> 00:11:42,283
+Let's also do the inspect one and in inspect we can easily see that
+
+144
+00:11:47,150 --> 00:11:50,916
+this code has been nicley generated for us
+
+145
+00:11:54,616 --> 00:12:01,016
+We've got this part over here and then this has been repeated by PUG and generated
+
+146
+00:12:01,016 --> 00:12:06,083
+without any further intervention, we don't have to do anything
+
+147
+00:12:06,083 --> 00:12:10,083
+This is PUG guys! I'll see you in the next lesson.

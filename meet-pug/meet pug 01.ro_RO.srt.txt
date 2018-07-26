@@ -1,10 +1,10 @@
 ﻿1
 00: 00: 00,000 -> 00: 00: 04,100
-Deci, ce este un template engine, pentru HTML sau altceva?
+Deci, ce este un motor de tipărire, pentru HTML sau altceva?
 
 2
 00: 00: 04,100 -> 00: 00: 10,316
-Să ne întâlnim cu PUG, care este unul dintre cele mai bune motoare pentru șabloane pentru HTML acolo.
+Să ne întâlnim cu PUG, care este unul dintre cele mai bune motoare de tipărire pentru HTML acolo.
 
 3
 00: 00: 12,416 -> 00: 00: 14,716
@@ -61,7 +61,7 @@ așa că suntem în același loc, dacă te uiți aici:
 
 16
 00: 00: 56,016 -> 00: 00: 57,900
-d: \ cool-stuff și d: \ cool-stuff
+d:\.. și d:\cool-stuff
 
 17
 00: 00: 57,900 -> 00: 01: 00,783
@@ -98,7 +98,7 @@ cd awesome-stuff
 
 25
 00: 01: 22,566 -> 00: 01: 25,666
-care este la fel ca și cand ai face dublu click pe el
+care este la fel ca și când ai face dublu click pe el
 
 26
 00: 01: 25,666 -> 00: 01: 27,483
@@ -178,7 +178,7 @@ pug-cli
 
 45
 00: 02: 40,566 -> 00: 02: 43,850
-trebuie să ai NodeJS insalled
+trebuie să ai NodeJS instalat
 
 46
 00: 02: 43,850 -> 00: 02: 46,216
@@ -242,7 +242,7 @@ acesta, h1, a fost transformat în acesta de aici
 
 61
 00: 03: 59,933 -> 00: 04: 03,800
-așa că acum voi face altceva, în loc să alerg întotdeauna ....
+așa că acum voi face altceva, în loc să rulez întotdeauna ...
 
 62
 00: 04: 03,800 -> 00: 04: 09,900
@@ -258,7 +258,7 @@ Vreau să spun: pug index.pug -w
 
 65
 00: 04: 21,100 -> 00: 04: 23,850
-care reprezint watch, în watch-mode
+care reprezintă observarea, în modul observare
 
 66
 00: 04: 24,566 -> 00: 04: 27,400
@@ -270,7 +270,7 @@ ceea ce înseamnă că acum se uită la index.pug
 
 68
 00: 04: 30,500 -> 00: 04: 34,633
-puteți vedea că aceste schimbări sunt reflectate aici. Acum puteți ușor
+puteți vedea că aceste schimbări sunt reflectate aici. Acum puteți simplu
 
 69
 00: 04: 35,950 -> 00: 04: 40,133
@@ -278,7 +278,7 @@ să închideți fereastra de aici, "windows-explorer", faceți asta mai mare
 
 70
 00: 04: 40,133 -> 00: 04: 43,216
-și de asemenea, închideți-l pe acesta, pentru că știu că acum urmărește,
+și de asemenea, închideți-l pe acesta, pentru că știu că acum observă,
 
 71
 00: 04: 43,216 -> 00: 04: 48,150
@@ -286,7 +286,7 @@ așa că orice aș face aici, de îndată ce o voi salva, se va reflecta aici
 
 72
 00: 04: 48,150 -> 00: 04: 50,183
-așa că acum despre acel template-engine
+așa că acum despre acel motor de tipărire
 
 73
 00: 04: 50,183 -> 00: 04: 54,716
@@ -294,7 +294,7 @@ așa că acum despre acel template-engine
 
 74
 00: 04: 54,716 -> 00: 04: 58,100
-minus, și apoi în interiorul acelui minus, ca
+minus, și apoi în interiorul acelui minus, deoarece
 
 75
 00: 04: 59,450 -> 00: 05: 03,850
@@ -302,23 +302,23 @@ Am apăsat TAB și apoi am tastat var, sau let sau const, orice
 
 76
 00: 05: 03,850 -> 00: 05: 07,183
-Deci sa facem "var" deoarece majoritatea oamenilor sunt obisnuiti cu asta
+Deci să facem "var" deoarece majoritatea oamenilor sunt obișnuiți cu asta
 
 77
 00: 05: 07,183 -> 00: 05: 12,716
-și voi crea o listă, precum oamenii, peopleList
+și voi crea o listă, precum people, peopleList
 
 78
 00: 05: 12,716 -> 00: 05: 18,533
-și pentru a fi o listă voi crea un array și voi începe să-l umplem cu obiecte
+și pentru a fi o listă voi crea un array și vom începe să-l umplem cu obiecte
 
 79
 00: 05: 18,533 -> 00: 05: 23,933
-și oamenii au un nume așa că voi spune: numele Marian
+și people au un nume așa că voi spune: name Marian
 
 80
 00: 05: 23,933 -> 00: 05: 29,483
-și vârsta de 36 de ani
+și age(vârsta) de 36 de ani
 
 81
 00: 05: 29,483 -> 00: 05: 34,750
@@ -330,7 +330,7 @@ Mă duc exact la începutul liniei 3 și folosind SHIFT și săgeata în jos
 
 83
 00: 05: 40,433 -> 00: 05: 43,666
-O să aleg liniile și apoi
+O să selectez liniile și apoi
 
 84
 00: 05: 43,666 -> 00: 05: 49,316
@@ -342,11 +342,11 @@ cu tastele ALT + SHIFT apăsate apăsați săgeata în jos pentru a duplica de c
 
 86
 00: 05: 54,450 -> 00: 06: 03,033
-Să o facem pe Grace. E mai ușor pentru tine să înțelegi în engleză, Gratiela este soția mea
+Să o facem pe Grațiela. E mai ușor pentru tine să înțelegi în engleză, Gratiela este soția mea
 
 87
 00: 06: 03,050 -> 00: 06: 10,566
-Și acum, Grace are 31 de ani și îl avem pe Razvan. Răzvan, ce vârstă ai?
+Și acum, Grațiela are 31 de ani și îl avem pe Razvan. Răzvan, ce vârstă ai?
 
 88
 00: 06: 10,583 -> 00: 06: 13,083
@@ -354,7 +354,7 @@ Să o facem pe Grace. E mai ușor pentru tine să înțelegi în engleză, Grati
 
 89
 00: 06: 13,083 -> 00: 06: 17,516
-Și o avem și pe Maya, fiica mea, in vârstă de 4 ani.
+Și o avem și pe Maya, fiica mea, în vârstă de 4 ani.
 
 90
 00: 06: 17,516 -> 00: 06: 21,266
@@ -362,7 +362,7 @@ Să o facem pe Grace. E mai ușor pentru tine să înțelegi în engleză, Grati
 
 91
 00: 06: 21,266 -> 00: 06: 24,766
-ce este un template-engine
+ce este un motor de tipărire
 
 92
 00: 06: 24,766 -> 00: 06: 28,483
@@ -378,7 +378,7 @@ așa că dacă vreau să transmit toate aceste nume
 
 95
 00: 06: 39,666 -> 00: 06: 45,416
-tabel, / tabel
+tabel, /table
 
 96
 00: 06: 45,416 -> 00: 06: 49,633
@@ -410,7 +410,7 @@ așa că voi face asta ca tbody
 
 103
 00: 07: 34,950 -> 00: 07: 38,466
-și asta, ca un thead,tbody din nou, îmi pare rău
+și asta, ca un thead, tbody din nou, îmi pare rău
 
 104
 00: 07: 38,466 -> 00: 07: 44,433
@@ -426,7 +426,7 @@ Numele și vârsta, OK.
 
 107
 00: 07: 55,583 -> 00: 07: 57,966
-până acum, dacă sunt ...
+până acum, dacă aș vrea
 
 108
 00: 07: 57,966 -> 00: 08: 04,300
@@ -446,7 +446,7 @@ așa că acesta este tabelul și ...
 
 112
 00: 08: 26,833 -> 00: 08: 34,133
-pentru a adăuga mai multe nume, trebuie doar să ... mai mult de atât, de mai multe ori și apoi
+pentru a adăuga mai multe nume, trebuie doar să ... facem acest lucru de mai multe ori și apoi
 
 113
 00: 08: 34,816 -> 00: 08: 40,000
@@ -454,7 +454,7 @@ Va arăta așa, dar cu numele potrivit.
 
 114
 00: 08: 40,533 -> 00: 08: 43,050
-asta ar fi trebuit să fac în HTML
+asta e ce ar fi trebuit să fac în HTML
 
 115
 00: 08: 43,050 -> 00: 08: 45,300
@@ -466,7 +466,7 @@ Deci, în PUG aș spune
 
 117
 00: 08: 51,600 -> 00: 08: 56,716
-tabel și  aș tasta: tbody
+table și  aș tasta: tbody
 
 118
 00: 08: 56,716 -> 00: 09: 02,350
@@ -474,7 +474,7 @@ vedeți, nu mai închid etichetele, folosesc doar TAB pentru indentare și
 
 119
 00: 09: 02,350 -> 00: 09: 10,900
-apoi: tr, td nme și td vârsta
+apoi: tr, td name și td age
 
 120
 00: 09: 10,900 -> 00: 09: 17,600
@@ -506,23 +506,23 @@ astfel încât each people ... people in peopleList
 
 127
 00: 10: 05,816 -> 00: 10: 14,550
-Acest lucru este același lucru cu utilizarea "for". Da, o voi comenta, dar dacă folosiți sau pentru fiecare, este același lucru.
+Acest lucru este același cu utilizarea "for". Da, o voi comenta, dar dacă folosiți sau pentru fiecare, este același lucru.
 
 128
 00: 10: 14,550 -> 00: 10: 20,650
-each peole în peopleList ... și acum voi indenta asta pentru a fi sub fiecare
+each peole în peopleList ... și acum voi indenta asta pentru a fi sub each
 
 129
 00: 10: 21,350 -> 00: 10: 26,916
-și voi spune: people sunt acest obiect, de fiecare dată când se repetă
+și voi spune: people sunt acest obiect, de fiecare dată când se parcurge
 
 130
 00: 10: 26,916 -> 00: 10: 30,333
-este acest obiect, acest obiect și acest obiect și așa mai departe
+este acest obiect, apoi acest obiect și acest obiect și așa mai departe
 
 131
 00: 10: 30,333 -> 00: 10: 32,750
-și fiecare obiect are un nume și o vârstă
+și fiecare obiect are un name și un age
 
 132
 00: 10: 33,050 -> 00: 10: 40,866
@@ -586,4 +586,4 @@ fără nici o intervenție ulterioară, nu trebuie să facem nimic
 
 147
 00: 12: 06,083 -> 00: 12: 10,083
-Acest lucru este PUG baieti! Ne vedem în următoarea lecție.
+Acesta este PUG! Ne vedem în următoarea lecție.

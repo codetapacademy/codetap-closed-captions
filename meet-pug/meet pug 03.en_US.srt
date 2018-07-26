@@ -191,82 +191,66 @@ multiline-attributes.html has been generated
 Now I'll keep the pug on top and the html on the bottom
 
 49
-00:04:07,333 --> 00:04:12,000
+00:04:07,333 --> 00:04:12,633
 So let's say you have a meta tag, right? And ...
 
 50
-00:04:12,000 --> 00:04:16,000
+00:04:12,633 --> 00:04:16,000
 the name is "description"
 
 51
-00:04:16,000 --> 00:04:20,000
-
+00:04:16,000 --> 00:04:24,733
+You can see it being generated over here, and then the content is
 
 52
-00:04:20,000 --> 00:04:24,000
-
+00:04:24,733 --> 00:04:36,000
+Pug is an awesome template language for HTML
 
 53
-00:04:24,000 --> 00:04:28,000
-
+00:04:36,000 --> 00:04:40,000
+So you can see that this line gets longer over here and not that easy
 
 54
-00:04:28,000 --> 00:04:32,000
-
+00:04:40,000 --> 00:04:44,000
+For you to navigate, it's not that easy to read, it's just for
 
 55
-00:04:32,000 --> 00:04:36,000
-
+00:04:44,000 --> 00:04:49,766
+For the coders, the browsers and the search engines don't really care about it
 
 56
-00:04:36,000 --> 00:04:40,000
-
+00:04:49,766 --> 00:04:54,766
+So it's just for you while you develop. So another way would be to do multiline attributes
 
 57
-00:04:40,000 --> 00:04:44,000
-
+00:04:54,766 --> 00:05:00,000
+I'll just press Enter here, and I'll also press Enter here
 
 58
-00:04:44,000 --> 00:04:48,000
-
+00:05:00,000 --> 00:05:03,633
+And "Shift + Tab". Now if you look at it
 
 59
-00:04:48,000 --> 00:04:52,000
-
+00:05:03,633 --> 00:05:07,666
+It's exactly the same thing however it's easier
 
 60
-00:04:52,000 --> 00:04:56,000
-
+00:05:07,666 --> 00:05:12,600
+For your eyes to read. So this is how you do attributes
 
 61
-00:04:56,000 --> 00:05:00,000
-
+00:05:12,600 --> 00:05:15,600
+You open and you close round parentheses
 
 62
-00:05:00,000 --> 00:05:04,000
-
+00:05:15,600 --> 00:05:18,833
+And inside them you just do attributes like in HTML
 
 63
-00:05:04,000 --> 00:05:08,000
-
+00:05:18,833 --> 00:05:22,066
+And this is how you do multiline attributes
 
 64
-00:05:08,000 --> 00:05:12,000
-
-
-65
-00:05:12,000 --> 00:05:16,000
-
-
-66
-00:05:16,000 --> 00:05:20,000
-
-
-67
-00:05:20,000 --> 00:05:24,000
-
-
-68
-00:05:24,000 --> 00:05:26,800
-
+00:05:22,066 --> 00:05:26,799
+With that said I'll see you in the next lesson where we'll talk more about attributes in PUG.
 

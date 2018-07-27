@@ -55,186 +55,126 @@ And then we can have a (click) event
 And this would be calling "myFunction()"
 
 15
-00:01:08,000 --> 00:01:12,000
-
+00:01:08,000 --> 00:01:14,633
+And let me also quickly open the command line, over here, and if we save it
 
 16
-00:01:12,000 --> 00:01:16,000
-
+00:01:14,633 --> 00:01:19,000
+We can see that we get an error. In order to get rid of that error
 
 17
-00:01:16,000 --> 00:01:20,000
-
+00:01:19,000 --> 00:01:23,933
+We can do a comma over there. If we save it we can see that over here
 
 18
-00:01:20,000 --> 00:01:24,000
-
+00:01:23,933 --> 00:01:28,233
+No more errors, everything looks fine and dandy, or ...
 
 19
-00:01:24,000 --> 00:01:28,000
-
+00:01:28,233 --> 00:01:33,000
+We can omit that comma. Actually let's duplicate this line
 
 20
-00:01:28,000 --> 00:01:32,000
-
+00:01:33,000 --> 00:01:39,100
+Do two pipes and then omit this comma
 
 21
-00:01:32,000 --> 00:01:36,000
-
+00:01:39,100 --> 00:01:43,466
+if we save it, we get back that error. However if we select this
 
 22
-00:01:36,000 --> 00:01:40,000
-
+00:01:43,466 --> 00:01:49,066
+And do single quotes around it we can see that
 
 23
-00:01:40,000 --> 00:01:44,000
-
+00:01:49,066 --> 00:01:56,000
+We get the same output. So this is quoted attributes.
 
 24
-00:01:44,000 --> 00:01:48,000
-
+00:01:56,000 --> 00:02:00,000
+Now let's do one more: attribute interpolation
 
 25
-00:01:48,000 --> 00:01:52,000
-
+00:02:00,000 --> 00:02:08,000
+attribute-interpolation.pug
 
 26
-00:01:52,000 --> 00:01:56,000
-
-
-27
-00:01:56,000 --> 00:02:00,000
-
-
-28
-00:02:00,000 --> 00:02:04,000
-
-
-29
-00:02:04,000 --> 00:02:08,000
-
-
-30
 00:02:08,000 --> 00:02:12,000
 
 
-31
+27
 00:02:12,000 --> 00:02:16,000
+Let's drag it over here. So this attribute interpolation
 
+28
+00:02:16,000 --> 00:02:19,366
+Which means, ... let's open a JavaScript and say: 
+
+29
+00:02:19,366 --> 00:02:36,400
+- var myUrl = 'http://codetap.io/cv'
+
+30
+00:02:36,400 --> 00:02:41,566
+This is where you can download your free template resume
+
+31
+00:02:41,566 --> 00:02:46,000
+It's actually my personal one. This is the one that I use when I go to interviews
 
 32
-00:02:16,000 --> 00:02:20,000
-
+00:02:46,000 --> 00:02:52,000
+So, with that said let's do now an "a" tag with a "href"
 
 33
-00:02:20,000 --> 00:02:24,000
-
+00:02:52,000 --> 00:02:58,400
+href=myUrl
 
 34
-00:02:24,000 --> 00:02:28,000
-
+00:02:58,400 --> 00:03:03,500
+So if we save it, we can see that it generated this, so I'll
 
 35
-00:02:28,000 --> 00:02:32,000
-
+00:03:03,500 --> 00:03:12,000
+Add a label: click to download your free CV template
 
 36
-00:02:32,000 --> 00:02:36,000
-
+00:03:12,000 --> 00:03:16,000
+Now we've generated this HTML over here.
 
 37
-00:02:36,000 --> 00:02:40,000
-
+00:03:16,000 --> 00:03:24,000
+Let's just make less text. Cool
 
 38
-00:02:40,000 --> 00:02:44,000
-
+00:03:24,000 --> 00:03:27,533
+So now we say again:
 
 39
-00:02:44,000 --> 00:02:48,000
-
+00:03:27,533 --> 00:03:37,133
+- var myUrl ... I'm not sure if it'll conflict, let's just try it, and this will be: contact.html
 
 40
-00:02:48,000 --> 00:02:52,000
-
+00:03:37,133 --> 00:03:46,100
+Then another "a" tag with href=myUrl and "Contact me"
 
 41
-00:02:52,000 --> 00:02:56,000
-
+00:03:46,100 --> 00:03:51,800
+Let's see now. We've got two of them side by side and I think we need
 
 42
-00:02:56,000 --> 00:03:00,000
-
+00:03:51,800 --> 00:03:58,600
+Here a pipe, or two. Let's see if we put two pipes like that. Does it work?
 
 43
-00:03:00,000 --> 00:03:04,000
-
+00:03:58,600 --> 00:04:03,833
+Or .. no, it just makes another pipe.
 
 44
-00:03:04,000 --> 00:03:08,000
-
+00:04:03,833 --> 00:04:08,866
+This was attribute interpolation and quoted attributes in PUG
 
 45
-00:03:08,000 --> 00:03:12,000
-
-
-46
-00:03:12,000 --> 00:03:16,000
-
-
-47
-00:03:16,000 --> 00:03:20,000
-
-
-48
-00:03:20,000 --> 00:03:24,000
-
-
-49
-00:03:24,000 --> 00:03:28,000
-
-
-50
-00:03:28,000 --> 00:03:32,000
-
-
-51
-00:03:32,000 --> 00:03:36,000
-
-
-52
-00:03:36,000 --> 00:03:40,000
-
-
-53
-00:03:40,000 --> 00:03:44,000
-
-
-54
-00:03:44,000 --> 00:03:48,000
-
-
-55
-00:03:48,000 --> 00:03:52,000
-
-
-56
-00:03:52,000 --> 00:03:56,000
-
-
-57
-00:03:56,000 --> 00:04:00,000
-
-
-58
-00:04:00,000 --> 00:04:04,000
-
-
-59
-00:04:04,000 --> 00:04:08,000
-
-
-60
-00:04:08,000 --> 00:04:11,266
-
+00:04:08,866 --> 00:04:11,266
+Let's see each other in the next lesson!
 

@@ -1,0 +1,589 @@
+﻿1
+00: 00: 00,000 -> 00: 00: 04,100
+Deci, ce este un motor de tipărire, pentru HTML sau altceva?
+
+2
+00: 00: 04,100 -> 00: 00: 10,316
+Să ne întâlnim cu PUG, care este unul dintre cele mai bune motoare de tipărire pentru HTML acolo.
+
+3
+00: 00: 12,416 -> 00: 00: 14,716
+Voi apăsa tasta "Start" și R
+
+4
+00: 00: 14,716 -> 00: 00: 17,350
+și va deschide această comandă, puteți doar să apăsați:
+
+5
+00: 00: 17,383 -> 00: 00: 22,150
+tasta "Start" și apoi tastați "cmd" și apăsați "Enter"
+
+6
+00: 00: 22,150 -> 00: 00: 25,033
+și va deschide o linie de comandă.
+
+7
+00: 00: 25,033 -> 00: 00: 27,966
+așa că o să ținem deschise ferestrele
+
+8
+00: 00: 27,966 -> 00: 00: 33,100
+Am mai multe partiții și vreau să schimb în partiția D
+
+9
+00: 00: 33,100 -> 00: 00: 35,450
+Nu trebuie să faceți acest lucru dacă aveți doar una.
+
+10
+00: 00: 35,450 -> 00: 00: 39,966
+Îmi păstrez toate proiectele în dosarul "cool-stuff"
+
+11
+00: 00: 39,966 -> 00: 00: 43,416
+Așa că ați observat că am făcut dublu clic pe "cool-stuff"
+
+12
+00: 00: 43,416 -> 00: 00: 45,966
+Pentru a schimba pe partiția D
+
+13
+00: 00: 45,966 -> 00: 00: 49,583
+și apoi du-te în "cool-stuff", voi spune
+
+14
+00: 00: 49,583 -> 00: 00: 53,150
+schimbă directorul "cool-stuff"
+cd cool-stuff
+
+15
+00: 00: 53,150 -> 00: 00: 56,016
+așa că suntem în același loc, dacă te uiți aici:
+
+16
+00: 00: 56,016 -> 00: 00: 57,900
+d:\.. și d:\cool-stuff
+
+17
+00: 00: 57,900 -> 00: 01: 00,783
+ceea ce înseamnă: această parte de aici
+
+18
+00: 01: 00,783 -> 00: 01: 03,533
+este aceeași cu această parte de aici
+
+19
+00: 01: 03,533 -> 00: 01: 05,950
+cele două sunt una și aceeași
+
+20
+00: 01: 07,083 -> 00: 01: 08,850
+și acum să continuăm
+
+21
+00: 01: 09,366 -> 00: 01: 13,283
+aici voi scrie: "mkdir", care înseamnă creează un nou director
+
+22
+00: 01: 13,283 -> 00: 01: 16,650
+awesome-stuff
+
+23
+00: 01: 16,650 -> 00: 01: 19,566
+astfel încât observați că a fost creat "awesome-stuff"
+
+24
+00: 01: 19,566 -> 00: 01: 22,566
+Mă voi muta în el:
+cd awesome-stuff
+
+25
+00: 01: 22,566 -> 00: 01: 25,666
+care este la fel ca și când ai face dublu click pe el
+
+26
+00: 01: 25,666 -> 00: 01: 27,483
+și aici voi crea un alt director
+
+27
+00: 01: 27,483 -> 00: 01: 33,183
+mkdir meet-pug
+
+28
+00: 01: 33,183 -> 00: 01: 35,783
+și mă voi muta și în el
+
+29
+00: 01: 35,783 -> 00: 01: 39,083
+cd meet-pug
+
+30
+00: 01: 39,083 -> 00: 01: 44,016
+așa că aici vreau să încep să creez niște fișiere
+
+31
+00: 01: 44,016 -> 00: 01: 48,166
+Voi deschide rapid Visual Studio Code prin comanda:
+
+32
+00: 01: 48,183 -> 00: 01: 50,916
+code spațiu și .
+
+33
+00: 01: 53,750 -> 00: 01: 58,483
+iar acum Visual Studio Code va fi deschis cu directorul "meet-pug"
+
+34
+00: 02: 01,233 -> 00: 02: 03,250
+și aici
+
+35
+00: 02: 04,433 -> 00: 02: 06,500
+Voi închide asta pentru o secundă
+
+36
+00: 02: 07,683 -> 00: 02: 09,433
+O să închid și asta
+
+37
+00: 02: 09,716 -> 00: 02: 13,533
+De fapt, o să micșorez pentru tine să vezi ce se întâmplă
+
+38
+00: 02: 14,150 -> 00: 02: 20,000
+Și voi apăsa CTRL + ' pe Windows pentru a deschide consola
+
+39
+00: 02: 20,600 -> 00: 02: 22,916
+Care este aceeași cu această consolă,
+
+40
+00: 02: 22,916 -> 00: 02: 26,383
+dar acum îl avem în Visual Studio Code, astfel încât să îl putem închide
+
+41
+00: 02: 26,383 -> 00: 02: 29,650
+Acum, să vedem! Avem PUG?
+
+42
+00: 02: 29,650 -> 00: 02: 33,150
+PUG command nu a fost găsit, ceea ce înseamnă că nu avem.
+
+43
+00: 02: 33,150 -> 00: 02: 37,283
+Voi tasta: npm install -g care este global
+
+44
+00: 02: 37,283 -> 00: 02: 39,733
+pug-cli
+
+45
+00: 02: 40,566 -> 00: 02: 43,850
+trebuie să ai NodeJS instalat
+
+46
+00: 02: 43,850 -> 00: 02: 46,216
+pentru a putea rula "npm"
+
+47
+00: 02: 46,216 -> 00: 02: 52,200
+pentru a instala pug-cli la nivel global pentru a fi disponibil pentru toate proiectele
+
+48
+00: 02: 54,283 -> 00: 02: 57,483
+acum să verificăm dacă PUG este recunoscut
+
+49
+00: 02: 59,066 -> 00: 03: 02,750
+s-a întâmplat ceva sau ceva nu se întâmplă
+
+50
+00: 03: 02,750 -> 00: 03: 08,683
+ceea ce înseamnă că a devenit recunoscut
+
+51
+00: 03: 08,950 -> 00: 03: 12,316
+așa că să vedem acum, voi crea un fișier nou aici
+
+52
+00: 03: 13,916 -> 00: 03: 18,450
+numit index.pug
+
+53
+00: 03: 18,833 -> 00: 03: 22,683
+și aici voi tasta: h1 salut
+
+54
+00: 03: 24,283 -> 00: 03: 27,233
+O.K. Deci, dacă îl salvez, puteți vedea asta
+
+55
+00: 03: 27,233 -> 00: 03: 30,266
+există un fișier nou aici și acesta este conținutul acestuia
+
+56
+00: 03: 30,266 -> 00: 03: 34,416
+acum să încercăm: pug index.pug
+
+57
+00: 03: 35,883 -> 00: 03: 40,200
+acum, din pug, index.pug
+
+58
+00: 03: 40,400 -> 00: 03: 45,983
+PUG a transformat într-un fișier HTML și dă-mi un moment
+
+59
+00: 03: 46,633 -> 00: 03: 50,366
+Deci, puteți vedea acum mai ușor acest lucru
+
+60
+00: 03: 53,450 -> 00: 03: 59,500
+acesta, h1, a fost transformat în acesta de aici
+
+61
+00: 03: 59,933 -> 00: 04: 03,800
+așa că acum voi face altceva, în loc să rulez întotdeauna ...
+
+62
+00: 04: 03,800 -> 00: 04: 09,900
+dacă scriu asta, nu se reflectă aici, așa că trebuie să rulez din nou: pug index.pug
+
+63
+00: 04: 10,450 -> 00: 04: 15,116
+astfel încât, pentru a nu fi nevoie pentru a rula întotdeauna acest lucru
+
+64
+00: 04: 15,116 -> 00: 04: 21,100
+Vreau să spun: pug index.pug -w
+
+65
+00: 04: 21,100 -> 00: 04: 23,850
+care reprezintă observarea, în modul observare
+
+66
+00: 04: 24,566 -> 00: 04: 27,400
+ceea ce înseamnă că acum se uită la index.pug
+
+67
+00: 04: 27,400 -> 00: 04: 29,950
+și dacă fac mai multe schimbări și îl salvez
+
+68
+00: 04: 30,500 -> 00: 04: 34,633
+puteți vedea că aceste schimbări sunt reflectate aici. Acum puteți simplu
+
+69
+00: 04: 35,950 -> 00: 04: 40,133
+să închideți fereastra de aici, "windows-explorer", faceți asta mai mare
+
+70
+00: 04: 40,133 -> 00: 04: 43,216
+și de asemenea, închideți-l pe acesta, pentru că știu că acum observă,
+
+71
+00: 04: 43,216 -> 00: 04: 48,150
+așa că orice aș face aici, de îndată ce o voi salva, se va reflecta aici
+
+72
+00: 04: 48,150 -> 00: 04: 50,183
+așa că acum despre acel motor de tipărire
+
+73
+00: 04: 50,183 -> 00: 04: 54,716
+În PUG pentru a tasta JavaScript puteți face
+
+74
+00: 04: 54,716 -> 00: 04: 58,100
+minus, și apoi în interiorul acelui minus, deoarece
+
+75
+00: 04: 59,450 -> 00: 05: 03,850
+Am apăsat TAB și apoi am tastat var, sau let sau const, orice
+
+76
+00: 05: 03,850 -> 00: 05: 07,183
+Deci să facem "var" deoarece majoritatea oamenilor sunt obișnuiți cu asta
+
+77
+00: 05: 07,183 -> 00: 05: 12,716
+și voi crea o listă, precum people, peopleList
+
+78
+00: 05: 12,716 -> 00: 05: 18,533
+și pentru a fi o listă voi crea un array și vom începe să-l umplem cu obiecte
+
+79
+00: 05: 18,533 -> 00: 05: 23,933
+și people au un nume așa că voi spune: name Marian
+
+80
+00: 05: 23,933 -> 00: 05: 29,483
+și age(vârsta) de 36 de ani
+
+81
+00: 05: 29,483 -> 00: 05: 34,750
+Voi face o virgulă aici și voi selecta acele linii
+
+82
+00: 05: 34,750 -> 00: 05: 40,433
+Mă duc exact la începutul liniei 3 și folosind SHIFT și săgeata în jos
+
+83
+00: 05: 40,433 -> 00: 05: 43,666
+O să selectez liniile și apoi
+
+84
+00: 05: 43,666 -> 00: 05: 49,316
+cu tastele ALT + SHIFT apăsate apăsați săgeata în jos pentru a duplica de câteva ori
+
+85
+00: 05: 49,316 -> 00: 05: 54,450
+și acum avem mai multe dintre ele, asta e prima
+
+86
+00: 05: 54,450 -> 00: 06: 03,033
+Să o facem pe Grațiela. E mai ușor pentru tine să înțelegi în engleză, Gratiela este soția mea
+
+87
+00: 06: 03,050 -> 00: 06: 10,566
+Și acum, Grațiela are 31 de ani și îl avem pe Razvan. Răzvan, ce vârstă ai?
+
+88
+00: 06: 10,583 -> 00: 06: 13,083
+25. Douăzeci și cinci
+
+89
+00: 06: 13,083 -> 00: 06: 17,516
+Și o avem și pe Maya, fiica mea, în vârstă de 4 ani.
+
+90
+00: 06: 17,516 -> 00: 06: 21,266
+Și acum veți înțelege destul de repede
+
+91
+00: 06: 21,266 -> 00: 06: 24,766
+ce este un motor de tipărire
+
+92
+00: 06: 24,766 -> 00: 06: 28,483
+așa că dacă vreau să transmit toate aceste nume
+
+93
+00: 06: 28,483 -> 00: 06: 34,083
+în HTML, de obicei aș face ceva de genul, poate: table
+
+94
+00: 06: 34,083 -> 00: 06: 39,650
+și apoi, OK, hai să facem HTML
+
+95
+00: 06: 39,666 -> 00: 06: 45,416
+tabel, /table
+
+96
+00: 06: 45,416 -> 00: 06: 49,633
+Să vedem dacă o salvez ... da, este acolo, OK ...
+
+97
+00: 06: 50,733 -> 00: 06: 55,233
+așa că atunci voi face un rând de tabel "tr"
+
+98
+00: 06: 55,233 -> 00: 07: 02,033
+și un alt tr
+
+99
+00: 07: 02,033 -> 00: 07: 11,850
+td, și apoi un alt, Marian, slash td
+
+100
+00: 07: 11,850 -> 00: 07: 16,950
+Să repetăm. Aceasta va fi 36.
+
+101
+00: 07: 18,800 -> 00: 07: 27,466
+Vreau să trec peste procesul de a face acest lucru, astfel încât veți vedea într-o secundă, beneficiile
+
+102
+00: 07: 30,883 -> 00: 07: 33,916
+așa că voi face asta ca tbody
+
+103
+00: 07: 34,950 -> 00: 07: 38,466
+și asta, ca un thead, tbody din nou, îmi pare rău
+
+104
+00: 07: 38,466 -> 00: 07: 44,433
+închiderea etichetei tbody și duplicarea acesteia ca ... așa
+
+105
+00: 07: 45,016 -> 00: 07: 49,233
+și apoi aceasta este thead
+
+106
+00: 07: 49,866 -> 00: 07: 55,083
+Numele și vârsta, OK.
+
+107
+00: 07: 55,583 -> 00: 07: 57,966
+până acum, dacă aș vrea
+
+108
+00: 07: 57,966 -> 00: 08: 04,300
+de fapt, să vedem dacă există o "deschidere cu explorer" ... dacă vreau să deschid această pagină
+
+109
+00: 08: 06,883 -> 00: 08: 12,216
+permiteți-mi să-l trag aici ... puteți vedea că există un tabel
+
+110
+00: 08: 15,466 -> 00: 08: 19,800
+bordura este egală cu 1
+
+111
+00: 08: 23,233 -> 00: 08: 26,833
+așa că acesta este tabelul și ...
+
+112
+00: 08: 26,833 -> 00: 08: 34,133
+pentru a adăuga mai multe nume, trebuie doar să ... facem acest lucru de mai multe ori și apoi
+
+113
+00: 08: 34,816 -> 00: 08: 40,000
+Va arăta așa, dar cu numele potrivit.
+
+114
+00: 08: 40,533 -> 00: 08: 43,050
+asta e ce ar fi trebuit să fac în HTML
+
+115
+00: 08: 43,050 -> 00: 08: 45,300
+acum o vom face în PUG
+
+116
+00: 08: 47,683 -> 00: 08: 50,066
+Deci, în PUG aș spune
+
+117
+00: 08: 51,600 -> 00: 08: 56,716
+table și  aș tasta: tbody
+
+118
+00: 08: 56,716 -> 00: 09: 02,350
+vedeți, nu mai închid etichetele, folosesc doar TAB pentru indentare și
+
+119
+00: 09: 02,350 -> 00: 09: 10,900
+apoi: tr, td name și td age
+
+120
+00: 09: 10,900 -> 00: 09: 17,600
+și apoi la același nivel ca și tbody ... ei bine, acesta este de fapt tbody
+
+121
+00: 09: 17,600 -> 00: 09: 35,116
+și asta e thead ... aici, o să fac un td, din nou td, Marian și vârsta, 36
+
+122
+00: 09: 35,116 -> 00: 09: 43,850
+deci ceea ce face este: creează automat acest HTML pentru noi
+
+123
+00: 09: 44,600 -> 00: 09: 47,200
+ALT + Z
+
+124
+00: 09: 47,850 -> 00: 09: 52,400
+cu toate acestea, dacă am această listă aici, peopleList
+
+125
+00: 09: 52,400 -> 00: 09: 56,650
+Pot să o repet și pot folosi fie "each" fie "for" pentru a face asta.
+
+126
+00: 09: 56,650 -> 00: 10: 05,816
+astfel încât each people ... people in peopleList
+
+127
+00: 10: 05,816 -> 00: 10: 14,550
+Acest lucru este același cu utilizarea "for". Da, o voi comenta, dar dacă folosiți sau pentru fiecare, este același lucru.
+
+128
+00: 10: 14,550 -> 00: 10: 20,650
+each peole în peopleList ... și acum voi indenta asta pentru a fi sub each
+
+129
+00: 10: 21,350 -> 00: 10: 26,916
+și voi spune: people sunt acest obiect, de fiecare dată când se parcurge
+
+130
+00: 10: 26,916 -> 00: 10: 30,333
+este acest obiect, apoi acest obiect și acest obiect și așa mai departe
+
+131
+00: 10: 30,333 -> 00: 10: 32,750
+și fiecare obiect are un name și un age
+
+132
+00: 10: 33,050 -> 00: 10: 40,866
+așa că aici aș tasta: = people.name
+
+133
+00: 10: 40,866 -> 00: 10: 45,616
+și aici aș tasta : people.age
+
+134
+00: 10: 45,616 -> 00: 10: 53,533
+Deci, chiar acum, aceasta este partea template-ului, aici, aceasta este partea template-ului
+
+135
+00: 10: 53,533 -> 00: 10: 58,200
+sau partea de vizualizare în care prezentăm ceea ce dorim
+
+136
+00: 10: 58,200 -> 00: 11: 00,666
+și acesta este modelul sau partea de date
+
+137
+00: 11: 00,716 -> 00: 11: 10,000
+și indiferent de cât de multe avem... să spunem: people pe care îi avem în listă
+
+138
+00: 11: 10,000 -> 00: 11: 18,850
+rulați întotdeauna o singură dată piesa repetată și apoi PUG generează automat pentru noi toate acestea.
+
+139
+00: 11: 18,850 -> 00: 11: 21,416
+Deci, dacă vom reîmprospăta asta, vom vedea
+
+140
+00: 11: 21,416 -> 00: 11: 25,100
+că acest cod a fost generat pentru noi, să-l inspectăm
+
+141
+00: 11: 25,100 -> 00: 11: 30,116
+de fapt, nu inspectați, să facem "view source", unde este "view source"?
+
+142
+00: 11: 30,116 -> 00: 11: 32,016
+"View source"
+
+143
+00: 11: 34,233 -> 00: 11: 42,283
+Să facem inspectarea și să verificăm că putem vedea cu ușurință acest lucru
+
+144
+00: 11: 47,150 -> 00: 11: 50,916
+acest cod a fost generat pentru noi
+
+145
+00: 11: 54,616 -> 00: 12: 01,016
+Avem această parte aici și apoi acest lucru a fost repetat de PUG și a fost generat
+
+146
+00: 12: 01,016 -> 00: 12: 06,083
+fără nici o intervenție ulterioară, nu trebuie să facem nimic
+
+147
+00: 12: 06,083 -> 00: 12: 10,083
+Acesta este PUG! Ne vedem în următoarea lecție.

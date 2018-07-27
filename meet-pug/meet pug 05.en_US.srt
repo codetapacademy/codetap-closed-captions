@@ -1,0 +1,168 @@
+﻿1
+00:00:00,000 --> 00:00:02,900
+Welcome back to "Meet Pug"
+
+2
+00:00:02,900 --> 00:00:05,733
+
+
+3
+00:00:05,733 --> 00:00:10,600
+We've done so many so lessons so far, however I want you to have access
+
+4
+00:00:10,600 --> 00:00:15,800
+To the code that I'm writing. So for that I'm not going to do
+
+5
+00:00:15,800 --> 00:00:22,733
+Pug right now, we're just going to quickly make this project available online. So follow me.
+
+6
+00:00:22,733 --> 00:00:27,000
+So over here I'll open the console and
+
+7
+00:00:27,000 --> 00:00:31,266
+Actually I'll open a new one over here, a new terminal and if I say:
+
+8
+00:00:31,266 --> 00:00:39,333
+git remote -v 
+
+9
+00:00:39,333 --> 00:00:43,733
+It shows that it's still pointing to marianzburlea/pug-starter, so
+
+10
+00:00:43,733 --> 00:00:48,300
+Let's assume you want this to be your project, so 
+
+11
+00:00:48,300 --> 00:00:52,000
+I'll quickly open a new window over here
+
+12
+00:00:52,000 --> 00:00:56,000
+And I will go on GitHub
+
+13
+00:00:56,000 --> 00:01:00,000
+And github.com/codatepio
+
+14
+00:01:00,000 --> 00:01:05,700
+So let's assume that "codetapio" will be your username, not mine, which is marianzburlea
+
+15
+00:01:05,700 --> 00:01:08,000
+Over here I'll create a new project
+
+16
+00:01:08,000 --> 00:01:11,233
+meet-pug
+
+17
+00:01:11,233 --> 00:01:19,400
+Create repository. Now I want to point to: codetapio/meet-pug
+
+18
+00:01:19,400 --> 00:01:22,866
+Not to marianzburlea/pug-starter so all I have to do is:
+
+19
+00:01:22,866 --> 00:01:27,833
+Remove the connection to git
+
+20
+00:01:27,833 --> 00:01:31,433
+Anyway. I also want to remove history so I'll just say:
+
+21
+00:01:31,433 --> 00:01:36,000
+rm -rf which is remove recursive with force
+
+22
+00:01:36,000 --> 00:01:41,500
+This is remove, this is recursive and this is with force
+
+23
+00:01:41,500 --> 00:01:42,633
+
+
+24
+00:01:42,633 --> 00:01:44,966
+And I'll remove the ".git" folder
+
+25
+00:01:44,966 --> 00:01:46,900
+git status
+
+26
+00:01:46,900 --> 00:01:50,766
+Now git no longer knows anything about it
+
+27
+00:01:50,766 --> 00:01:52,966
+"git init" will reinitialise git
+
+28
+00:01:52,966 --> 00:01:55,966
+"git add ." everything and
+
+29
+00:01:55,966 --> 00:02:04,833
+git commit -m "meet pug is quite awesome"
+
+30
+00:02:04,833 --> 00:02:06,766
+
+
+31
+00:02:06,766 --> 00:02:12,000
+And now all I have to do is to copy those two lines
+
+32
+00:02:12,000 --> 00:02:16,000
+or those two lines. They are one and the same.
+
+33
+00:02:16,000 --> 00:02:21,333
+Paste them over here, press "Enter", give it a second
+
+34
+00:02:21,333 --> 00:02:25,166
+And now if I refresh the page
+
+35
+00:02:25,166 --> 00:02:28,000
+You can see that we got 
+
+36
+00:02:28,000 --> 00:02:30,033
+
+
+37
+00:02:30,033 --> 00:02:36,333
+All of our files that we've written so far accessible and
+
+38
+00:02:36,333 --> 00:02:40,000
+On the web, on GitHub, open sourced
+
+39
+00:02:40,000 --> 00:02:41,500
+
+
+40
+00:02:41,500 --> 00:02:46,666
+And I'll continue to make commits and you can find all those files on:
+
+41
+00:02:46,666 --> 00:02:50,100
+https://github.com/codetapio/meet-pug
+
+42
+00:02:50,100 --> 00:02:52,666
+So see you in the next lesson!
+

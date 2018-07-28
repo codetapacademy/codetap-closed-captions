@@ -1,0 +1,90 @@
+1
+00:00:00,033 --> 00:00:01,099
+5 tipp
+
+2
+00:00:01,100 --> 00:00:05,100
+hogyan lehet belőled webfejlesztő
+
+3
+00:00:05,100 --> 00:00:05,933
+Első tipp
+
+4
+00:00:05,933 --> 00:00:08,099
+Önkéntesen vagy gyakornokként.
+
+5
+00:00:08,100 --> 00:00:10,633
+Ezek a leggyorsabb utak, hogy felvegyenek.
+
+6
+00:00:10,633 --> 00:00:12,933
+vagy mint webfejlesztő szabadúszóként.
+
+
+7
+00:00:12,933 --> 00:00:14,599
+Szóval a kérdésed lehet akár:
+
+8
+00:00:14,600 --> 00:00:18,500
+Hé, van a környéken olyan akinek kell egy weboldal?
+
+
+9
+00:00:18,500 --> 00:00:19,766
+Második tipp
+
+10
+00:00:19,766 --> 00:00:23,132
+Mondj igent minden lehetőségre, még az ingyenesekre is.
+
+11
+00:00:23,133 --> 00:00:24,599
+Harmadik tipp
+
+12
+00:00:24,600 --> 00:00:26,100
+Építsd meg a portfoliódat.
+
+13
+00:00:26,100 --> 00:00:27,300
+Negyedik tipp
+
+14
+00:00:27,300 --> 00:00:28,566
+Találj egy mentort.
+
+15
+00:00:28,566 --> 00:00:35,199
+Az idő 90%-ban kezdőként csak a hibákat nézi és rosszul csinálja a dolgokat.
+
+16
+00:00:35,200 --> 00:00:38,033
+Találni egy mentort mindent megváltoztat.
+
+17
+00:00:38,033 --> 00:00:42,833
+Egy mentor segíteni fog a helyes úton haladni ha nagyon eltévedtél volna.
+
+18
+00:00:42,833 --> 00:00:45,266
+Ha új vagy itt ez itt CodeTap.
+
+19
+00:00:45,266 --> 00:00:49,566
+Ahol felfedezheted hogyan építs weboldalakat és meg is fizetnek érte.
+
+20
+00:00:49,566 --> 00:00:52,466
+Ha megakarod nézni a teljes részét ennek a videónak
+
+21
+00:00:52,466 --> 00:00:55,632
+látogass el ennek a videónak az alján lévő linkre,
+
+22
+00:00:55,633 --> 00:01:00,066
+írd be a böngésző címsorába, és nyomd meg az entert.
+

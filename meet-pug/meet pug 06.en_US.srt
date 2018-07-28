@@ -1,0 +1,200 @@
+﻿1
+00:00:00,000 --> 00:00:02,633
+So let's play some more with attributes in PUG
+
+2
+00:00:02,633 --> 00:00:05,633
+
+
+3
+00:00:05,633 --> 00:00:09,400
+Last time we've played with quoted attributes and attributes interpolation
+
+4
+00:00:09,400 --> 00:00:15,366
+Actually over here, let's quickly change this one, like that. And we can also do:
+
+5
+00:00:15,366 --> 00:00:19,866
++ '.html' so this is like JavaScript
+
+6
+00:00:19,866 --> 00:00:23,566
+OK, let's save it. We can see that it's the same thing.
+
+7
+00:00:23,566 --> 00:00:27,466
+Especially if you do like: ?a=2
+
+8
+00:00:27,466 --> 00:00:30,600
+We can see that the change gets propagate here
+
+9
+00:00:30,600 --> 00:00:34,100
+That was another thing about attribute interpolation.
+
+10
+00:00:34,100 --> 00:00:41,233
+So now let's close some of those files and create a new file
+
+11
+00:00:41,233 --> 00:00:48,000
+unescaped.pug
+
+12
+00:00:48,000 --> 00:00:52,000
+
+
+13
+00:00:52,000 --> 00:00:57,900
+That's unescaped.pug and unescaped.html, split
+
+14
+00:00:57,900 --> 00:01:03,733
+And let's leave it like that for a second.
+
+15
+00:01:03,733 --> 00:01:08,000
+OK, so let's do another div
+
+16
+00:01:08,000 --> 00:01:11,966
+And inside it let's make: 
+
+17
+00:01:11,966 --> 00:01:24,000
+code="<b>name</b>"
+
+18
+00:01:24,000 --> 00:01:30,566
+And, actually, let's make it horizontal, it's easier for you to see.
+
+19
+00:01:30,566 --> 00:01:36,000
+We can see that this one gets converted into this one, however this is lesser than sign
+
+20
+00:01:36,000 --> 00:01:40,000
+This is the lesser than sign
+
+21
+00:01:40,000 --> 00:01:46,866
+And then it's "b" and it's the greater than sign, undo ...
+
+22
+00:01:46,866 --> 00:01:51,200
+So it's not exactly what we wanted. So if we want to "unescape" it.
+
+23
+00:01:51,200 --> 00:01:56,000
+Let's put some pipes, right? We want to "unescape" it, 
+
+24
+00:01:56,000 --> 00:02:00,000
+We want to put an exclamation "!" before that equal "="
+
+25
+00:02:00,000 --> 00:02:04,000
+This is escaped, this is unescaped
+
+26
+00:02:04,000 --> 00:02:08,000
+Now let's see some other things
+
+27
+00:02:08,000 --> 00:02:12,000
+Let's play with the boolean ones
+
+28
+00:02:12,000 --> 00:02:15,633
+boolean.pug
+
+29
+00:02:15,633 --> 00:02:20,000
+Ok, let's move boolean.pug here, and boolean.html here
+
+30
+00:02:20,000 --> 00:02:28,000
+Now let's do an "input" tag and inside here we'll type: type="text"
+
+31
+00:02:28,000 --> 00:02:32,900
+And then we'll do "checked"
+
+32
+00:02:32,900 --> 00:02:37,833
+Save it, we can see that this is the output of that
+
+33
+00:02:37,833 --> 00:02:46,100
+Let's do a couple of pipes and then: input(type="radio")
+
+34
+00:02:46,100 --> 00:02:51,100
+And we can say: checked=true
+
+35
+00:02:51,100 --> 00:02:53,933
+So, again, checked, checked
+
+36
+00:02:53,933 --> 00:03:00,000
+And then let's duplicate this one and do checked=false
+
+37
+00:03:00,000 --> 00:03:04,000
+So, in this case checked is omitted
+
+38
+00:03:04,000 --> 00:03:09,366
+However if we are to specify: doctype html
+
+39
+00:03:09,366 --> 00:03:12,633
+html
+
+40
+00:03:12,633 --> 00:03:16,466
+It knows not to mirror the checked attribute
+
+41
+00:03:16,466 --> 00:03:19,300
+Which means it just gonna output this one
+
+42
+00:03:19,300 --> 00:03:22,600
+If we want to actually output the "checked" one,
+
+43
+00:03:22,600 --> 00:03:28,000
+Let's duplicate this and do: true
+
+44
+00:03:28,000 --> 00:03:31,333
+If we save it we can see, checked here
+
+45
+00:03:31,333 --> 00:03:36,000
+And we can say: if true, if this is true
+
+46
+00:03:36,000 --> 00:03:37,933
+Which it is right now
+
+47
+00:03:37,933 --> 00:03:42,700
+We can type 'checked'
+
+48
+00:03:42,700 --> 00:03:45,733
+And now we've got checked="checked"
+
+49
+00:03:45,733 --> 00:03:52,000
+And this is the unescaped and the boolean attributes in PUG
+
+50
+00:03:52,000 --> 00:03:53,800
+Happy Hacking!
+

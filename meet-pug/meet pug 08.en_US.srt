@@ -1,0 +1,172 @@
+﻿1
+00:00:00,000 --> 00:00:06,066
+So attributes in PUG, so many ways to play with them. We are almost done with this so let's continue.
+
+2
+00:00:06,066 --> 00:00:09,166
+
+
+3
+00:00:09,166 --> 00:00:14,633
+In here I'll create a new file: id.pug
+
+4
+00:00:14,633 --> 00:00:19,700
+Close the other one and I'll drag the id.html over here
+
+5
+00:00:19,700 --> 00:00:25,933
+And close this one. So basically to create an "id' is similar to the CSS selector, you just do
+
+6
+00:00:25,933 --> 00:00:32,000
+An "a" tag with the # or whatever you call this sign over here
+
+7
+00:00:32,000 --> 00:00:41,833
+And my-id. I save it, you can see that the tag is generated here, yeeey
+
+8
+00:00:41,833 --> 00:00:46,666
+Ok, now if we want to create a div
+
+9
+00:00:46,666 --> 00:00:55,233
+We can say div#my-other-id
+
+10
+00:00:55,233 --> 00:01:00,733
+And we can also continue with a class: .my-class
+
+11
+00:01:00,733 --> 00:01:02,666
+
+
+12
+00:01:02,666 --> 00:01:08,000
+However, as you remember, div is the default one
+
+13
+00:01:08,000 --> 00:01:11,566
+So we can just omit it like that
+
+14
+00:01:11,566 --> 00:01:15,433
+And this would be #my-other-other-id
+
+15
+00:01:15,433 --> 00:01:20,733
+Because ids should be unique, nothing stops you from actually typing 
+
+16
+00:01:20,733 --> 00:01:24,000
+Identical ids, but ids are unique
+
+17
+00:01:24,000 --> 00:01:27,500
+Which are not identical, so pay attention to that
+
+18
+00:01:27,500 --> 00:01:31,366
+Classes can be repeated easily in HTML
+
+19
+00:01:31,366 --> 00:01:39,133
+Ok, so now we've got #my-id, #my-other-id and #my-other-other-id cause I'm running out of ideas
+
+20
+00:01:39,133 --> 00:01:47,433
+So now let's play with the ampersand &attributes
+
+21
+00:01:47,433 --> 00:01:53,433
+special-attributes.pug
+
+22
+00:01:53,433 --> 00:01:59,233
+I'll drag this one over ... no, I'll drag this one over here
+
+23
+00:01:59,233 --> 00:02:03,133
+Than look for special-attributes.html, drag it over here, close that and close that
+
+24
+00:02:03,133 --> 00:02:08,000
+Ok so over here let's make an object
+
+25
+00:02:08,000 --> 00:02:16,000
+var myObject = {} and let's do
+
+26
+00:02:16,000 --> 00:02:19,500
+Html, not html, let's do:
+
+27
+00:02:19,500 --> 00:02:27,133
+src: and the value would be 'path.jpg'
+
+28
+00:02:27,133 --> 00:02:36,000
+Whatever, and then width: '100'
+
+29
+00:02:36,000 --> 00:02:39,533
+Would be enough, and now
+
+30
+00:02:39,533 --> 00:02:44,000
+Let's create an "img" tag
+
+31
+00:02:44,000 --> 00:02:48,000
+With the class as .nice-image
+
+32
+00:02:48,000 --> 00:02:52,000
+And then let's pass the &attributes
+
+33
+00:02:52,000 --> 00:02:56,433
+And this would be like a function call
+
+34
+00:02:56,433 --> 00:03:01,033
+And we pass "myObject" into it, see what happens
+
+35
+00:03:01,033 --> 00:03:07,300
+yeeey, so we've got these attributes and and it
+
+36
+00:03:07,300 --> 00:03:12,000
+created it over here. Now let's pass another one
+
+37
+00:03:12,000 --> 00:03:20,000
+class: 'big', so if we do this
+
+38
+00:03:20,000 --> 00:03:24,000
+We can see that it kind of joined this class over here
+
+39
+00:03:24,000 --> 00:03:31,500
+With this one over here. So this is the &attributes inside Pug
+
+40
+00:03:31,500 --> 00:03:32,500
+
+
+41
+00:03:32,500 --> 00:03:38,533
+So did you have fun looking at attributes inside PUG language that generates HTML?
+
+42
+00:03:38,533 --> 00:03:41,300
+Well next time we'll start talking about case
+
+43
+00:03:41,300 --> 00:03:43,333
+So, happy hacking!
+

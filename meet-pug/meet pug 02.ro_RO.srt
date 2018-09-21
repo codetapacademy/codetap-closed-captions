@@ -8,7 +8,7 @@ Ultima oară ne-am întâlnit cu PUG, acum hai să aflăm cum putem să îmbună
 
 3
 00:00:08,000 --> 00:00:12,000
-We've created this "peopleList" over here and then we looked through it
+Am creat "peopleList" aici apoi ne-am uitat prin ea
 
 4
 00:00:12,000 --> 00:00:16,633

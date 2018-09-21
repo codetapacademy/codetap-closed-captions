@@ -1,0 +1,288 @@
+﻿1
+00:00:00,000 --> 00:00:04,800
+Ultima oară ne-am întâlnit cu PUG, acum hai să aflăm cum putem să îmbunătățim procesul
+
+2
+00:00:04,800 --> 00:00:08,000
+ 
+
+3
+00:00:08,000 --> 00:00:12,000
+We've created this "peopleList" over here and then we looked through it
+
+4
+00:00:12,000 --> 00:00:16,633
+and we are generating this HTML over here which is like one liner anyways, it's quite compressed
+
+5
+00:00:16,633 --> 00:00:23,100
+So in order to generate it we said: pug index.pug -w
+
+6
+00:00:23,100 --> 00:00:28,000
+and then this would convert index.pug in index.html and each time
+
+7
+00:00:28,000 --> 00:00:32,000
+we do a change we can see that the change is propagated here, but
+
+8
+00:00:32,000 --> 00:00:36,000
+It's not easy for us to read, so we can further improve it
+
+9
+00:00:36,000 --> 00:00:40,000
+-w --pretty
+
+10
+00:00:40,000 --> 00:00:43,300
+And now it's easier for us to read it
+
+11
+00:00:43,300 --> 00:00:46,100
+and if we do more changes
+
+12
+00:00:46,100 --> 00:00:50,133
+Like over here we could say, instead of = we could say
+
+13
+00:00:50,133 --> 00:00:56,000
+td !! and then we interpolate this one into PUG
+
+14
+00:00:56,000 --> 00:00:59,266
+Like that and now we can see that
+
+15
+00:00:59,266 --> 00:01:04,000
+Every place has added two exclamation points and a space
+
+16
+00:01:04,000 --> 00:01:08,866
+And it's easy to read, however this is not the most efficient setup
+
+17
+00:01:08,866 --> 00:01:12,000
+And in order to, you know, be better coders
+
+18
+00:01:12,000 --> 00:01:17,200
+Let's find out another way and to do that I'll open again this
+
+19
+00:01:17,200 --> 00:01:20,266
+meet-pug and for the moment I'll close this one
+
+20
+00:01:20,266 --> 00:01:24,166
+Go into meet-pug and just remove it
+
+21
+00:01:24,166 --> 00:01:28,000
+Let's open again the command line, so press the Start key
+
+22
+00:01:28,000 --> 00:01:29,500
+Type cmd
+
+23
+00:01:29,500 --> 00:01:30,400
+D:
+
+24
+00:01:30,400 --> 00:01:32,066
+cd cool-stuff
+
+25
+00:01:32,066 --> 00:01:34,466
+cd awesome-stuff
+
+26
+00:01:34,466 --> 00:01:36,833
+OK, let's google: pug starter
+
+27
+00:01:36,833 --> 00:01:40,433
+Just google "pug starter" and then you'll find this link
+
+28
+00:01:40,433 --> 00:01:45,033
+https://github.com/marianzburlea/pug-starter
+
+29
+00:01:45,033 --> 00:01:48,466
+Click on it. Now, if you haven't
+
+30
+00:01:48,466 --> 00:01:51,433
+Pressed the star button, just press the Start button over here
+
+31
+00:01:51,433 --> 00:01:55,333
+Let's, let me show you which one is it. Just to make sure ... this one
+
+32
+00:01:55,333 --> 00:02:00,366
+There is a Star button. If you see Unstar it means you have already added it to your favourites
+
+33
+00:02:00,366 --> 00:02:04,600
+If not press that Star button which is located under here
+
+34
+00:02:04,600 --> 00:02:09,033
+And when you do that, then you can find it under "Your stars"
+
+35
+00:02:09,033 --> 00:02:12,866
+That's how I favourite all the projects that I'm interested in
+
+36
+00:02:12,866 --> 00:02:16,866
+And that's how you'll quickly find this one, cause some of them
+
+37
+00:02:16,866 --> 00:02:19,833
+See, the have like weird names: abs-studio-amf-encoder
+
+38
+00:02:19,833 --> 00:02:23,200
+You can't really remember this all the time, so
+
+39
+00:02:23,200 --> 00:02:26,766
+It's easier if you add it to your favourites by pressing the Star button
+
+40
+00:02:26,766 --> 00:02:32,700
+Anyway, the point is: we go on pug-starter, click the clone button and then click this one
+
+41
+00:02:32,700 --> 00:02:36,266
+This button, click it to copy it to the clipboard
+
+42
+00:02:36,266 --> 00:02:37,566
+And then over here we just say:
+
+43
+00:02:37,566 --> 00:02:44,000
+Git clone and I'll press "Shift + Insert" to paste it and then I'll name it
+
+44
+00:02:44,000 --> 00:02:47,666
+meet-pug, so
+
+45
+00:02:47,666 --> 00:02:51,266
+git space clone space paste the URL or type
+
+46
+00:02:51,266 --> 00:02:56,933
+https://github.com/marianzburlea/pug-starter.git
+
+47
+00:02:56,933 --> 00:02:59,333
+Space meet-pug
+
+48
+00:02:59,333 --> 00:03:04,766
+Which will clone the project into a folder named: meet-pug
+
+49
+00:03:04,766 --> 00:03:07,200
+Now: cd meet-pug
+
+50
+00:03:07,200 --> 00:03:16,000
+Will type: npm which is node package manager
+
+51
+00:03:16,000 --> 00:03:24,300
+npm and i for install, OK? So "i" or "install" 
+
+52
+00:03:24,300 --> 00:03:26,500
+is the same thing, just type: npm i
+
+53
+00:03:26,500 --> 00:03:32,000
+
+
+54
+00:03:32,000 --> 00:03:36,000
+
+
+55
+00:03:36,000 --> 00:03:42,100
+
+
+56
+00:03:42,100 --> 00:03:44,300
+So once this is done, let's open
+
+57
+00:03:44,300 --> 00:03:48,000
+This folder under Visual Studio Code
+
+58
+00:03:48,000 --> 00:03:51,200
+So: code .
+
+59
+00:03:51,200 --> 00:03:55,666
+And into this "src" we can see that we have an index.pug file
+
+60
+00:03:55,666 --> 00:03:59,300
+With some initial setup
+
+61
+00:03:59,300 --> 00:04:04,000
+I'll press CTRL + ' to open the command line under Windows
+
+62
+00:04:04,000 --> 00:04:08,000
+And I'll type: npm start
+
+63
+00:04:08,000 --> 00:04:12,566
+
+
+64
+00:04:12,566 --> 00:04:16,700
+Now let's add this to the left side
+
+65
+00:04:16,700 --> 00:04:19,666
+
+
+66
+00:04:19,666 --> 00:04:24,000
+OK, so now over here if we type something and
+
+67
+00:04:24,000 --> 00:04:26,733
+Save it we can see that it auto-refreshes
+
+68
+00:04:26,733 --> 00:04:31,366
+And on top of that later on we can also see that later on this project offers
+
+69
+00:04:31,366 --> 00:04:35,300
+Options to style it, and not just style it, deploy it to GitHub and so on
+
+70
+00:04:35,300 --> 00:04:40,000
+However we are more interested in PUG so
+
+71
+00:04:40,000 --> 00:04:43,533
+Let catch up in the next lesson where we'll start to talk about
+
+72
+00:04:43,533 --> 00:04:47,166
+PUG attributes or attributes in PUG. Happy Hacking!
+

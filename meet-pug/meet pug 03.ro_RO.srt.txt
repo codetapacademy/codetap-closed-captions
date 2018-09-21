@@ -1,6 +1,6 @@
 ﻿1
 00:00:00,000 --> 00:00:04,000
-Cum scrii HTML atribute folosind PUG
+Cum scrii atribute HTML folosind PUG
 
 2
 00:00:04,000 --> 00:00:05,500
